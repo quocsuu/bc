@@ -1,0 +1,1984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header id="header">
+    <div class="container-fluid py-0 px-4 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)]">
+      <div class="row flex flex-wrap items-center">
+        <div class="header__logo me-auto lg:mx-auto">
+          <a href="/"><img src="/images/LOGO2.png" alt="LOGO HERE" class="w-[70px]" /></a>
+        </div>
+        <div class="header__navbar fixed lg:static lg:block p-5 lg:py-1">
+          <ul class="header__navbar__list text-center lg:flex justify-center">
+            <li class="py-3 lg:px-5"><a href="#">GIỚI THIỆU</a></li>
+            <li class="py-3 lg:px-5"><a href="#">VỀ MĂNG ĐEN</a></li>
+            <li class="py-3 lg:px-5"><a href="#">CHƯƠNG TRÌNH</a></li>
+            <li class="py-3 lg:px-5"><a href="#">ĐỊA ĐIỂM</a></li>
+            <li class="py-3 lg:px-5"><a href="#">THƯ VIỆN</a></li>
+            <li class="py-3 lg:px-5"><a href="#">LIÊN HỆ</a></li>
+          </ul>
+        </div>
+        <div class="burger ms-auto lg:hidden" id="header-nav-toggle-btn">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="">
+    <section id="aboutUs" class="overflow-hidden">
+      <div class="section__container">
+        <div class="flex flex-col md:flex-row">
+          <div class="aboutUs__content px-6 pt-12 pb-16">
+            <div class="aboutUs__description">
+              <h1 class="mb-4">MĂNG ĐEN BOOTCAMP 2025</h1>
+              <h2 class="mb-4">
+                NGOẠI NGỮ - THỂ LỰC - TỰ LẬP - KỶ LUẬT - CẤT CÁNH
+              </h2>
+              <p>
+                Chương trình Summer Camp 2024 không chỉ là một khóa học ngoại ngữ mà còn là hành trình trưởng thành đầy
+                thú vị! Đây là nơi các bạn nhỏ được thỏa sức khám phá, nâng cao khả năng ngôn ngữ, rèn luyện sức khỏe,
+                học cách tự lập và phát triển tính kỷ luật. Hơn hết, mỗi ngày trôi qua đều là một trải nghiệm ngoại khóa
+                đáng nhớ, giúp các em tích lũy những kỷ niệm đẹp và kỹ năng quý giá cho tương lai.
+              </p>
+              <div class="aboutUs__btn mt-4 flex align-center justify-center">
+                <a href="#" class="btn aboutUs__btn-register py-3 px-12" id="aboutUs__btn-register">Đăng ký ngay</a>
+              </div>
+            </div>
+            <div class="aboutUs__bg">
+              <img
+                src="https://static.wixstatic.com/media/de4a55_87f9d32695d846418f9f4c3bdd6efac0~mv2.jpg/v1/fill/w_2048,h_1217,al_c,q_90,enc_avif,quality_auto/de4a55_87f9d32695d846418f9f4c3bdd6efac0~mv2.jpg"
+                alt="" />
+            </div>
+          </div>
+          <div class="aboutUs__img">
+            <img
+              src="https://static.wixstatic.com/media/f9a462_493ce26a780643e0944dae5ec258a8f6~mv2.jpeg/v1/fill/w_1726,h_1236,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/f9a462_493ce26a780643e0944dae5ec258a8f6~mv2.jpeg"
+              alt="" class="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gioi_thieu" class="container mx-auto py-10 px-5">
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+        <h2 class="h2 uppercase color-text text-center color-primary mb-2">
+          MĂNG ĐEN BOOTCAMP
+        </h2>
+        <!-- Hình ảnh -->
+        <div class="overflow-hidden ">
+          <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+        </div>
+
+        <!-- Nội dung -->
+        <div class="mt-6 text-gray-800">
+          <p class="text-lg leading-relaxed">
+            Chương trình Summer Camp 2024 là chương trình tăng cường ngoại ngữ, rèn luyện sức
+            khỏe, sự tự lập, rèn luyện tính kỷ luật và các trải nghiệm ngoại khóa đặc sắc. Được thiết
+            kế dành riêng học sinh từ 8-18 tuổi.
+          </p>
+          <div class="overflow-hidden ">
+            <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container mx-auto py-10 px-5">
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+
+        <div class="text-gray-800">
+          <p class="text-lg leading-relaxed">
+            <strong>Măng Đen Bootcamp</strong> mang đến cơ hội trải nghiệm môi trường học tập đa văn hóa, sinh hoạt và
+            học tập cùng học viên đến từ nhiều thành phố khác nhau trên cả nước. Giúp học viên tăng cường kỹ năng giao
+            tiếp, tự tin thể hiện cá tính, tài năng. Với đội ngũ giáo viên nhiệt huyết và giàu kinh nghiệm, hệ thống
+            quản lý chuyên nghiệp. Ngoài ra học viên còn có cơ hội trải nghiệm nhiều hoạt động dã ngoại khác nhau trong
+            suốt quá trình tham gia trại hè. Sau khóa học, học viên không chỉ cải thiện về trình độ tiếng Anh mà còn
+            trưởng thành, tự tin, tự lập hơn trong cuộc sống.
+          </p>
+        </div>
+
+        <!-- Hình ảnh -->
+        <div class="grid grid-cols-2 gap-4 mt-6">
+          <img src="https://picsum.photos/400/250?random=1" alt="Học tập" class="w-full h-60 object-cover rounded-lg">
+          <img src="https://picsum.photos/400/250?random=2" alt="Hoạt động nhóm"
+            class="w-full h-60 object-cover rounded-lg">
+        </div>
+
+        <div class="mt-4">
+          <img src="https://picsum.photos/800/400?random=3" alt="Thực hành ngoài trời"
+            class="w-full h-72 object-cover rounded-lg">
+        </div>
+
+        <!-- Đoạn văn dưới cùng -->
+        <div class="mt-4 text-gray-800">
+          <p class="text-lg leading-relaxed">
+            Học viên sinh hoạt và học tập tại <strong>Măng Đen Bootcamp</strong> sẽ luôn được giám sát và chăm sóc 24/7
+            bởi các quản sinh Việt Nam. Đảm bảo an toàn cho học viên trong suốt thời gian học tập và sinh hoạt tại
+            trường.
+          </p>
+        </div>
+      </div>
+      <!-- Nội dung văn bản -->
+    </section>
+    <section id="ageProblem" class="py-8 px-6">
+      <div class="section__container">
+<!-- component -->
+<div class="bg-white relative   flex items-center  n justify-center overflow-hidden z-50 ">
+     
+  <div class="relative mx-auto h-full px-4  pb-20   md:pb-10 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
+      <div class="flex flex-col items-center justify-between lg:flex-row py-16">
+          <div class=" relative ">
+              <div class=" absolute top-0 -left-48 z-0  opacity-50 ">
+                  <img src="https://placehold.co/200x100" class="w-36 z-0  h-full    object-fill fill-y text-y   ">
+              </div>
+              <div class="lg:max-w-xl lg:pr-5 relative z-40">
+                  <p class="flex text-sm uppercase text-g1  ">
+                       
+                      About Us
+                  </p>
+                  <h2 class="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-7xl sm:leading-snug">
+                      We make you look
+                      <span class="my-1 inline-block border-b-8 border-g4 bg-white px-4 font-bold text-g4 animate__animated animate__flash">different</span>
+                  </h2>
+                  <p class="text-base text-gray-700">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                      accusantium doloremque it.</p>
+                  <div class="mt-10 flex flex-col items-center md:flex-row">
+                      <a href="/" class="mb-3 inline-flex h-12 w-full items-center justify-center rounded bg-green-600 px-6 font-medium tracking-wide text-white shadow-md transition hover:bg-blue-800 focus:outline-none md:mr-4 md:mb-0 md:w-auto">
+                          View More</a>
+                      <a href="/" aria-label="" class="group inline-flex items-center font-semibold text-g1">Watch how
+                          it works
+                          <svg xmlns="http://www.w3.org/2000/svg" class="ml-4 h-6 w-6 transition-transform group-hover:translate-x-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                          </svg>
+                      </a>
+                  </div>
+              </div>
+              
+             
+          </div>
+          <div class="relative hidden lg:ml-32 lg:block lg:w-1/2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="my-6 mx-auto h-10 w-10 animate-bounce rounded-full bg-white p-2 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M16 17l-4 4m0 0l-4-4m4 4V3"></path>
+              </svg>
+              <div class="abg-orange-400 mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none">
+                   <img src="https://placehold.co/400x400">
+              </div>
+          </div>
+      </div>
+  </div> 
+  <div class="hidden text-9xl varien absolute top-6 left-1/4 text-g/10 z-40    ">
+      About Us
+  </div>
+  <div class=" absolute -bottom-24 left-10 z-0  opacity-10 "> 
+      <svg width="800px" height="800px" viewBox="0 0 24 24" class="w-96 z-0  h-full    object-fill fill-gray-300 text-gray-300" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6C12 5.44772 11.5523 5 11 5C10.4477 5 10 5.44772 10 6V16C10 16.5523 10.4477 17 11 17C11.5523 17 12 16.5523 12 16V6ZM9 9C9 8.44772 8.55228 8 8 8C7.44772 8 7 8.44772 7 9V16C7 16.5523 7.44772 17 8 17C8.55228 17 9 16.5523 9 16V9ZM15 9C15 8.44772 14.5523 8 14 8C13.4477 8 13 8.44772 13 9V16C13 16.5523 13.4477 17 14 17C14.5523 17 15 16.5523 15 16V9ZM18 13C18 12.4477 17.5523 12 17 12C16.4477 12 16 12.4477 16 13V16C16 16.5523 16.4477 17 17 17C17.5523 17 18 16.5523 18 16V13ZM6 15C6 14.4477 5.55228 14 5 14C4.44772 14 4 14.4477 4 15V16C4 16.5523 4.44772 17 5 17C5.55228 17 6 16.5523 6 16V15ZM21 15C21 14.4477 20.5523 14 20 14C19.4477 14 19 14.4477 19 15V16C19 16.5523 19.4477 17 20 17C20.5523 17 21 16.5523 21 16V15ZM4 18C3.44772 18 3 18.4477 3 19C3 19.5523 3.44772 20 4 20H21C21.5523 20 22 19.5523 22 19C22 18.4477 21.5523 18 21 18H4Z"></path>
+      </svg>
+  </div>
+   
+  <div class=" absolute -bottom-0 left-3/4 z-0  opacity-10 "> 
+      <svg width="800px" height="800px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" class="w-48 z-0  h-full -rotate-90   object-fill fill-red-300 text-red-300">
+          <path d="M32 225h12.993A4.004 4.004 0 0 0 49 220.997V138.01c0-4.976.724-5.04 1.614-.16l12.167 66.708c.397 2.177 2.516 3.942 4.713 3.942h8.512a3.937 3.937 0 0 0 3.947-4S79 127.5 80 129s14.488 52.67 14.488 52.67c.559 2.115 2.8 3.83 5.008 3.83h8.008a3.993 3.993 0 0 0 3.996-3.995v-43.506c0-4.97 1.82-5.412 4.079-.965l10.608 20.895c1.001 1.972 3.604 3.571 5.806 3.571h9.514a3.999 3.999 0 0 0 3.993-4.001v-19.49c0-4.975 2.751-6.074 6.155-2.443l6.111 6.518c1.51 1.61 4.528 2.916 6.734 2.916h7c2.21 0 5.567-.855 7.52-1.92l9.46-5.16c1.944-1.06 5.309-1.92 7.524-1.92h23.992a4.002 4.002 0 0 0 4.004-3.992v-7.516a3.996 3.996 0 0 0-4.004-3.992h-23.992c-2.211 0-5.601.823-7.564 1.834l-4.932 2.54c-4.423 2.279-12.028 3.858-16.993 3.527l2.97.198c-4.962-.33-10.942-4.12-13.356-8.467l-11.19-20.14c-1.07-1.929-3.733-3.492-5.939-3.492h-7c-2.21 0-4 1.794-4 4.001v19.49c0 4.975-1.14 5.138-2.542.382l-12.827-43.535c-.625-2.12-2.92-3.838-5.127-3.838h-8.008c-2.207 0-3.916 1.784-3.817 4.005l1.92 42.998c.221 4.969-.489 5.068-1.585.224l-15.13-66.825c-.488-2.155-2.681-3.902-4.878-3.902h-8.512a3.937 3.937 0 0 0-3.947 4s.953 77-.047 75.5-13.937-92.072-13.937-92.072C49.252 34.758 47.21 33 45 33H31.999" fill-rule="evenodd"></path>
+      </svg>
+  </div> 
+  <div class=" absolute top-10 left-3/4 z-0  opacity-10 "> 
+       
+      <svg fill="#000000" width="800px" height="800px" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" class="w-96 z-0  h-full    object-fill fill-blue-300 text-blue-300">
+          <path d="M230.704 99.2a4.004 4.004 0 0 0-4.01-3.995h-50.981c-2.215 0-5.212-1.327-6.693-2.964L155.289 77.08c-17.795-19.65-41.628-16.256-53.234 7.58l-38.736 79.557C60.42 170.172 52.705 175 46.077 175H29.359a3.996 3.996 0 0 0-3.994 3.995v10.01A4 4 0 0 0 29.372 193h24.7c8.835 0 19.208-6.395 23.174-14.293l43.645-86.914c3.964-7.894 12.233-9.228 18.473-2.974l17.184 17.219c3.123 3.13 9.242 5.667 13.647 5.667H226.7a4.005 4.005 0 0 0 4.004-3.994v-8.512z" fill-rule="evenodd"></path>
+      </svg>
+  </div> 
+
+</div>
+      </div>
+    </section>
+    <section class="bg-[#262626] ">
+      <div><svg viewBox="0 0 1925 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0021713 0L0.000976562 375.003L1925 0H0.0021713Z"
+            fill="#F9B800"></path>
+        </svg></div>
+      <main
+        class="flex md:flex-row justify-center flex-col gap-[100px] md:gap-[40px] lg:gap-[100px] mx-auto w-full max-w-[1440px] min-w-[280px]  py-8 px-4 lg:px-8">
+        <div class="max-w-[550px] mt-16">
+          <p class="text-xl text-[#F9B800]">Quisque porttitor vitae vel amet neque scelerisque mattis. Consectetur nibh
+            velit magna consectetur leo.</p>
+          <h2 class="text-[30px] leading-[48px] md:text-[50px] md:leading-[68px] mt-5 mb-16 text-white">Cursus Integer
+            Conseq Aliquam Tristique.</h2>
+          <button class="w-full flex items-center justify-between outline-gray-600 max-w-[350px] text-xl  font-bold sm:text-lg  rounded-[38px] bg-[#fff] text-[##262626] py-4 px-6 sm:px-9"><span>Get Started</span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#262626" height="20px" width="20px" version="1.1" viewBox="0 0 330 330" xml:space="preserve"><path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255  s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0  c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"></path></svg></button>
+        </div>
+        <div
+          class="flex md:mt-[-70px] items-center flex-col md:grid md:grid-cols-[220px_220px] lg:grid-cols-[250px_250px] grid-rows-8 gap-[60px] md:gap-[30px] lg:gap-[45px]">
+          <div
+            class="col-start-1 col-end-2 row-start-1 row-end-4   bg-[#ffffff]  rounded-[40px] w-[250px] md:w-[220px] lg:w-[250px]   p-8 md:p-4 lg:p-8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M9.99998 9.75C9.58576 9.75 9.24998 9.41421 9.24998 9C9.24998 8.58579 9.58576 8.25 9.99998 8.25H14C14.3033 8.25 14.5768 8.43273 14.6929 8.71299C14.809 8.99324 14.7448 9.31583 14.5303 9.53033L11.8106 12.25H14C14.4142 12.25 14.75 12.5858 14.75 13C14.75 13.4142 14.4142 13.75 14 13.75H9.99998C9.69663 13.75 9.42315 13.5673 9.30707 13.287C9.19098 13.0068 9.25515 12.6842 9.46965 12.4697L12.1893 9.75H9.99998Z"
+                fill="#1C274C" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M4.25004 9C4.25004 4.71979 7.71983 1.25 12 1.25C16.2802 1.25 19.75 4.71979 19.75 9V9.7041C19.75 10.401 19.9563 11.0824 20.3429 11.6622L21.4915 13.3851C22.8246 15.3848 21.8069 18.1028 19.4883 18.7351C18.7327 18.9412 17.9706 19.1155 17.2042 19.2581L17.2023 19.2632C16.4333 21.3151 14.378 22.75 12 22.75C9.62198 22.75 7.56667 21.3151 6.79768 19.2632L6.79578 19.2581C6.02937 19.1155 5.26738 18.9412 4.51177 18.7351C2.19318 18.1028 1.17547 15.3848 2.50856 13.3851L3.65717 11.6622C4.04375 11.0824 4.25004 10.401 4.25004 9.7041V9ZM8.62349 19.5369C9.33444 20.5585 10.571 21.25 12 21.25C13.4289 21.25 14.6655 20.5585 15.3764 19.537C13.1335 19.805 10.8664 19.8049 8.62349 19.5369ZM12 2.75C8.54826 2.75 5.75004 5.54822 5.75004 9V9.7041C5.75004 10.6972 5.45609 11.668 4.90524 12.4943L3.75664 14.2172C2.99147 15.3649 3.57561 16.925 4.90644 17.288C9.5507 18.5546 14.4494 18.5546 19.0936 17.288C20.4245 16.925 21.0086 15.3649 20.2434 14.2172L19.0948 12.4943C18.544 11.668 18.25 10.6972 18.25 9.7041V9C18.25 5.54822 15.4518 2.75 12 2.75Z"
+                fill="#1C274C" />
+            </svg>
+            <div>
+              <span class="text-[72px] text-black leading-[93px]  font-bold">1<span class="text-[#F9B800]">.</span></span>
+              <p>
+                <span class="text-2xl font-bold">Phasellus Vitae</span><br><span class="text-xl font-semibold ">Quisque</span><br><span class="text-lg font-extralight">Porttitor vitae vel amet</span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-start-2 col-end-3 row-start-2 row-end-5   bg-[#F9B800]  rounded-[40px] w-[250px] md:w-[220px] lg:w-[250px]   p-8 md:p-4 lg:p-8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M3 1.25C3.41421 1.25 3.75 1.58579 3.75 2V22C3.75 22.4142 3.41421 22.75 3 22.75C2.58579 22.75 2.25 22.4142 2.25 22V2C2.25 1.58579 2.58579 1.25 3 1.25ZM9.46777 4.25H18.5322C18.972 4.24998 19.3514 4.24997 19.6626 4.27818C19.9918 4.30802 20.3178 4.37407 20.625 4.55144C20.967 4.74892 21.2511 5.03296 21.4486 5.375C21.6259 5.68221 21.692 6.00817 21.7218 6.33735C21.75 6.64864 21.75 7.02797 21.75 7.46775V7.53225C21.75 7.97203 21.75 8.35136 21.7218 8.66265C21.692 8.99183 21.6259 9.31779 21.4486 9.625C21.2511 9.96704 20.967 10.2511 20.625 10.4486C20.3178 10.6259 19.9918 10.692 19.6626 10.7218C19.3514 10.75 18.972 10.75 18.5322 10.75H9.46779C9.028 10.75 8.64865 10.75 8.33735 10.7218C8.00817 10.692 7.68221 10.6259 7.375 10.4486C7.03296 10.2511 6.74892 9.96704 6.55144 9.625C6.37407 9.31779 6.30802 8.99183 6.27818 8.66265C6.24997 8.35136 6.24998 7.97201 6.25 7.53223V7.46777C6.24998 7.02799 6.24997 6.64864 6.27818 6.33735C6.30802 6.00817 6.37407 5.68221 6.55144 5.375C6.74892 5.03296 7.03296 4.74892 7.375 4.55144C7.68221 4.37407 8.00817 4.30802 8.33735 4.27818C8.64864 4.24997 9.02799 4.24998 9.46777 4.25ZM8.47274 5.77206C8.2476 5.79246 8.16586 5.82689 8.125 5.85048C8.01099 5.91631 7.91631 6.01099 7.85048 6.125C7.82689 6.16586 7.79246 6.2476 7.77206 6.47275C7.75072 6.7082 7.75 7.01889 7.75 7.5C7.75 7.98111 7.75072 8.2918 7.77206 8.52725C7.79246 8.7524 7.82689 8.83414 7.85048 8.875C7.91631 8.98901 8.01099 9.08369 8.125 9.14952C8.16586 9.17311 8.2476 9.20754 8.47274 9.22794C8.7082 9.24928 9.01889 9.25 9.5 9.25H18.5C18.9811 9.25 19.2918 9.24928 19.5273 9.22794C19.7524 9.20754 19.8341 9.17311 19.875 9.14952C19.989 9.08369 20.0837 8.98901 20.1495 8.875C20.1731 8.83414 20.2075 8.7524 20.2279 8.52725C20.2493 8.2918 20.25 7.98111 20.25 7.5C20.25 7.01889 20.2493 6.7082 20.2279 6.47275C20.2075 6.2476 20.1731 6.16586 20.1495 6.125C20.0837 6.01099 19.989 5.91631 19.875 5.85048C19.8341 5.82689 19.7524 5.79246 19.5273 5.77206C19.2918 5.75072 18.9811 5.75 18.5 5.75H9.5C9.01889 5.75 8.7082 5.75072 8.47274 5.77206ZM9.46779 13.25H15.5322C15.972 13.25 16.3514 13.25 16.6627 13.2782C16.9918 13.308 17.3178 13.3741 17.625 13.5514C17.967 13.7489 18.2511 14.033 18.4486 14.375C18.6259 14.6822 18.692 15.0082 18.7218 15.3373C18.75 15.6486 18.75 16.028 18.75 16.4678V16.5322C18.75 16.972 18.75 17.3514 18.7218 17.6627C18.692 17.9918 18.6259 18.3178 18.4486 18.625C18.2511 18.967 17.967 19.2511 17.625 19.4486C17.3178 19.6259 16.9918 19.692 16.6627 19.7218C16.3514 19.75 15.972 19.75 15.5322 19.75H9.46775C9.02797 19.75 8.64864 19.75 8.33735 19.7218C8.00817 19.692 7.68221 19.6259 7.375 19.4486C7.03296 19.2511 6.74892 18.967 6.55144 18.625C6.37407 18.3178 6.30802 17.9918 6.27818 17.6627C6.24997 17.3514 6.24998 16.972 6.25 16.5322V16.4678C6.24998 16.028 6.24997 15.6486 6.27818 15.3373C6.30802 15.0082 6.37407 14.6822 6.55144 14.375C6.74892 14.033 7.03296 13.7489 7.375 13.5514C7.68221 13.3741 8.00817 13.308 8.33735 13.2782C8.64865 13.25 9.028 13.25 9.46779 13.25ZM8.47275 14.7721C8.2476 14.7925 8.16586 14.8269 8.125 14.8505C8.01099 14.9163 7.91631 15.011 7.85048 15.125C7.82689 15.1659 7.79246 15.2476 7.77206 15.4727C7.75072 15.7082 7.75 16.0189 7.75 16.5C7.75 16.9811 7.75072 17.2918 7.77206 17.5273C7.79246 17.7524 7.82689 17.8341 7.85048 17.875C7.91631 17.989 8.01099 18.0837 8.125 18.1495C8.16586 18.1731 8.2476 18.2075 8.47274 18.2279C8.7082 18.2493 9.01889 18.25 9.5 18.25H15.5C15.9811 18.25 16.2918 18.2493 16.5273 18.2279C16.7524 18.2075 16.8341 18.1731 16.875 18.1495C16.989 18.0837 17.0837 17.989 17.1495 17.875C17.1731 17.8341 17.2075 17.7524 17.2279 17.5273C17.2493 17.2918 17.25 16.9811 17.25 16.5C17.25 16.0189 17.2493 15.7082 17.2279 15.4727C17.2075 15.2476 17.1731 15.1659 17.1495 15.125C17.0837 15.011 16.989 14.9163 16.875 14.8505C16.8341 14.8269 16.7524 14.7925 16.5273 14.7721C16.2918 14.7507 15.9811 14.75 15.5 14.75H9.5C9.01889 14.75 8.7082 14.7507 8.47275 14.7721Z"
+                fill="#1C274C" />
+            </svg>
+            <div><span class="text-[72px] text-black leading-[93px]  font-bold">2<span class="text-[#fff]">.</span></span>
+              <p>
+                <span class="text-2xl font-bold">Phasellus Vitae</span><br><span class="text-xl font-semibold ">Quisque</span><br><span class="text-lg font-extralight">Porttitor vitae vel amet</span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-start-1 col-end-2 row-start-4 row-end-7   bg-[#F9B800]  rounded-[40px] w-[250px] md:w-[220px] lg:w-[250px]   p-8 md:p-4 lg:p-8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.9426 1.25H12.0574C14.3658 1.24999 16.1748 1.24998 17.5863 1.43975C19.031 1.63399 20.1711 2.03933 21.0659 2.93414C21.9607 3.82895 22.366 4.96897 22.5603 6.41371C22.75 7.82519 22.75 9.63423 22.75 11.9426V12H22.7391C22.75 12.5789 22.75 13.2299 22.75 13.9664V14.0336C22.75 15.4053 22.75 16.4807 22.6794 17.3451C22.6075 18.2252 22.4586 18.9523 22.1233 19.6104C21.572 20.6924 20.6924 21.572 19.6104 22.1233C18.9523 22.4586 18.2252 22.6075 17.3451 22.6794C16.4807 22.75 15.4053 22.75 14.0336 22.75H9.96642C8.59471 22.75 7.51928 22.75 6.65494 22.6794C5.7748 22.6075 5.04769 22.4586 4.38955 22.1233C3.30762 21.572 2.42798 20.6924 1.87671 19.6104C1.54138 18.9523 1.39252 18.2252 1.32061 17.3451C1.24999 16.4807 1.25 15.4053 1.25 14.0336V13.9664C1.25 13.2299 1.25 12.5789 1.26092 12H1.25L1.25 11.9426C1.24999 9.63423 1.24998 7.82519 1.43975 6.41371C1.63399 4.96897 2.03933 3.82895 2.93414 2.93414C3.82895 2.03933 4.96897 1.63399 6.41371 1.43975C7.82519 1.24998 9.63423 1.24999 11.9426 1.25ZM2.88197 6.98698C3.31781 6.53974 3.82626 6.16372 4.38955 5.87671C5.04769 5.54138 5.7748 5.39252 6.65494 5.32061C7.51929 5.24999 8.59472 5.25 9.96645 5.25H14.0336C15.4053 5.25 16.4807 5.24999 17.3451 5.32061C18.2252 5.39252 18.9523 5.54138 19.6104 5.87671C20.1737 6.16372 20.6822 6.53975 21.118 6.98698C21.1046 6.85884 21.0899 6.73445 21.0736 6.61358C20.9018 5.33517 20.5749 4.56445 20.0052 3.9948C19.4355 3.42514 18.6648 3.09825 17.3864 2.92637C16.0864 2.75159 14.3782 2.75 12 2.75C9.62177 2.75 7.91356 2.75159 6.61358 2.92637C5.33517 3.09825 4.56445 3.42514 3.9948 3.9948C3.42514 4.56445 3.09825 5.33517 2.92637 6.61358C2.91012 6.73444 2.89537 6.85884 2.88197 6.98698ZM6.77708 6.81563C5.9897 6.87996 5.48197 7.00359 5.07054 7.21322C4.27085 7.62069 3.62068 8.27085 3.21322 9.07054C3.00359 9.48197 2.87996 9.9897 2.81563 10.7771C2.75058 11.5732 2.75 12.5875 2.75 14C2.75 15.4125 2.75058 16.4268 2.81563 17.2229C2.87996 18.0103 3.00359 18.518 3.21322 18.9295C3.62068 19.7291 4.27085 20.3793 5.07054 20.7868C5.48197 20.9964 5.9897 21.12 6.77708 21.1844C7.57322 21.2494 8.58749 21.25 10 21.25H14C15.4125 21.25 16.4268 21.2494 17.2229 21.1844C18.0103 21.12 18.518 20.9964 18.9295 20.7868C19.7291 20.3793 20.3793 19.7291 20.7868 18.9295C20.9964 18.518 21.12 18.0103 21.1844 17.2229C21.2494 16.4268 21.25 15.4125 21.25 14C21.25 12.5875 21.2494 11.5732 21.1844 10.7771C21.12 9.9897 20.9964 9.48197 20.7868 9.07054C20.3793 8.27085 19.7291 7.62068 18.9295 7.21322C18.518 7.00359 18.0103 6.87996 17.2229 6.81563C16.4268 6.75058 15.4125 6.75 14 6.75H10C8.58749 6.75 7.57322 6.75058 6.77708 6.81563ZM14.9995 11.4405C15.3085 11.7164 15.3353 12.1905 15.0595 12.4995L11.488 16.4995C11.3457 16.6589 11.1422 16.75 10.9286 16.75C10.7149 16.75 10.5114 16.6589 10.3691 16.4995L8.94055 14.8995C8.66467 14.5905 8.69151 14.1164 9.00049 13.8405C9.30947 13.5647 9.78358 13.5915 10.0595 13.9005L10.9286 14.8739L13.9405 11.5005C14.2164 11.1915 14.6905 11.1647 14.9995 11.4405Z"
+                fill="#1C274C" />
+            </svg>
+            <div><span class="text-[72px] text-black leading-[93px]  font-bold">3<span class="text-[#fff]">.</span></span>
+              <p>
+                <span class="text-2xl font-bold">Phasellus Vitae</span><br><span class="text-xl font-semibold ">Quisque</span><br><span class="text-lg font-extralight">Porttitor vitae vel amet</span>
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-start-2 col-end-3 row-start-5 row-end-8   bg-[#fff]  rounded-[40px] w-[250px] md:w-[220px] lg:w-[250px]   p-8 md:p-4 lg:p-8">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M1.25 3C1.25 2.58579 1.58579 2.25 2 2.25L22 2.25C22.4142 2.25 22.75 2.58579 22.75 3C22.75 3.41422 22.4142 3.75 22 3.75L2 3.75C1.58579 3.75 1.25 3.41421 1.25 3ZM7.94801 7.25H16.052C16.9505 7.24997 17.6997 7.24995 18.2945 7.32991C18.9223 7.41432 19.4891 7.59999 19.9445 8.05546C20.4 8.51093 20.5857 9.07773 20.6701 9.70552C20.7501 10.3003 20.75 11.0495 20.75 11.948V12.052C20.75 12.9505 20.7501 13.6997 20.6701 14.2945C20.5857 14.9223 20.4 15.4891 19.9445 15.9445C19.4891 16.4 18.9223 16.5857 18.2945 16.6701C17.6997 16.7501 16.9505 16.75 16.052 16.75H7.94801C7.04952 16.75 6.3003 16.7501 5.70552 16.6701C5.07773 16.5857 4.51093 16.4 4.05546 15.9445C3.59999 15.4891 3.41432 14.9223 3.32991 14.2945C3.24995 13.6997 3.24997 12.9505 3.25 12.052V11.948C3.24997 11.0495 3.24995 10.3003 3.32991 9.70552C3.41432 9.07773 3.59999 8.51093 4.05546 8.05546C4.51093 7.59999 5.07773 7.41432 5.70552 7.32991C6.3003 7.24995 7.04952 7.24997 7.94801 7.25ZM5.90539 8.81654C5.44393 8.87858 5.24643 8.9858 5.11612 9.11612C4.9858 9.24644 4.87858 9.44393 4.81654 9.90539C4.75159 10.3884 4.75 11.036 4.75 12C4.75 12.964 4.75159 13.6116 4.81654 14.0946C4.87858 14.5561 4.9858 14.7536 5.11612 14.8839C5.24643 15.0142 5.44393 15.1214 5.90539 15.1835C6.38843 15.2484 7.03599 15.25 8 15.25H16C16.964 15.25 17.6116 15.2484 18.0946 15.1835C18.5561 15.1214 18.7536 15.0142 18.8839 14.8839C19.0142 14.7536 19.1214 14.5561 19.1835 14.0946C19.2484 13.6116 19.25 12.964 19.25 12C19.25 11.036 19.2484 10.3884 19.1835 9.90539C19.1214 9.44393 19.0142 9.24644 18.8839 9.11612C18.7536 8.9858 18.5561 8.87858 18.0946 8.81654C17.6116 8.7516 16.964 8.75 16 8.75H8C7.03599 8.75 6.38843 8.7516 5.90539 8.81654ZM1.25 21C1.25 20.5858 1.58579 20.25 2 20.25L22 20.25C22.4142 20.25 22.75 20.5858 22.75 21C22.75 21.4142 22.4142 21.75 22 21.75L2 21.75C1.58579 21.75 1.25 21.4142 1.25 21Z"
+                fill="#1C274C" />
+            </svg>
+            <div>
+              <span class="text-[72px] text-black leading-[93px]  font-bold">4<span class="text-[#F9B800]">.</span></span>
+              <p>
+                <span class="text-2xl font-bold">Phasellus Vitae</span><br><span class="text-xl font-semibold ">Quisque</span><br><span class="text-lg font-extralight">Porttitor vitae vel amet</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="rotate-180"><svg viewBox="0 0 1925 375" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0021713 0L0.000976562 375.003L1925 0H0.0021713Z"
+            fill="#F9B800"></path>
+        </svg></div>
+    </section>
+    <section class="mx-auto  max-w-[1440px] min-w-[280px] py-8 px-4 sm:px-8 md:px-10 lg:0px-20 ">
+      <div
+        class="section__container rounded-[50px] sm:rounded-[60px] md:rounded-[70px] lg:rounded-[80px] bg-[#f9b800]   flex flex-col lg:flex-row  items-center  py-6 sm:py-9 md:py-11 lg:py-14  px-2  sm:px-4 md:px-8 xl:px-16">
+        <img class="w-full lg:w-1/2 xl:w-full max-w-[550px] lg:order-2" src="https://iili.io/2ysFUen.png" alt="">
+        <div class="text-center md:text-left">
+          <h1
+            class="text-4xl leading-[48px] md:text-5xl md:leading-[58px] lg:text-[50px] lg:leading-[70px] font-bold mb-6 md:mb-12">
+            Elevate Your Style with Modern Design.
+          </h1>
+          <span class="animate-ping text-xl leading-[34px] underline font-semibold sm:text-[24px] mb-3 mt-5">
+                      Discover Unique Creations!
+    
+            </span><br>
+          <p class="text-xl leading-[27px]  font-normal sm:text-[24px] mb-8 md:mb-12">
+            Explore innovative designs crafted with precision and elegance to enhance your lifestyle.
+    
+          </p>
+          <button class="w-full flex items-center  justify-between outline-gray-600 max-w-[350px] text-xl  font-bold sm:text-lg  rounded-[38px] bg-[#262626] text-white py-4 px-6 sm:px-9"><span>
+    Get Started        
+            </span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff" height="20px" width="20px" version="1.1" viewBox="0 0 330 330" xml:space="preserve"><path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255  s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0  c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"></path></svg></button>
+        </div>
+      </div>
+    </section>
+    <section id="ageProblem" class="py-8 px-6">
+      <div class="section__container">
+        <h2 class="h2 color-primary text-center">
+          TỔNG QUAN VỀ MĂNG ĐEN BOOTCAMP
+        </h2>
+        <!-- Slider main container -->
+        <!-- <div class="lg:flex lg:flex-row">
+              <div
+                class="mt-4 lg:mt-0 max-w-full lg:basis-1/2 lg:max-w-[50%] lg:px-1 block"
+              >
+                <div class="swiper ageProblem__languageLearning-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="ageProblem__item">
+                        <div class="ageProblem__item-img">
+                          <img
+                            src="https://static.wixstatic.com/media/de4a55_dfa294a1c54e4bf98bc49db22efe6a85~mv2.jpg/v1/fill/w_600,h_556,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/de4a55_dfa294a1c54e4bf98bc49db22efe6a85~mv2.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ageProblem__item-description p-4 sm:pb-8">
+                          <h4 class="uppercase h4">Cha mẹ</h4>
+                          <p class="text">
+                            Cảm giác ức chế dồn nén vì con thường hay cãi lại,
+                            ngang bướng
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="ageProblem__item">
+                        <div class="ageProblem__item-img">
+                          <img
+                            src="https://static.wixstatic.com/media/de4a55_dfa294a1c54e4bf98bc49db22efe6a85~mv2.jpg/v1/fill/w_600,h_556,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/de4a55_dfa294a1c54e4bf98bc49db22efe6a85~mv2.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ageProblem__item-description p-4">
+                          <h4 class="uppercase h4">Cha mẹ</h4>
+                          <p class="text">
+                            Mất kết nối" với con. Cảm giác bất lực vì nói rất
+                            nhiều mà con dường như chẳng để tâm
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+
+              <div
+                class="mt-4 lg:mt-0 max-w-full lg:basis-1/2 lg:max-w-[50%] lg:px-1 block"
+              >
+                <div class="swiper ageProblem__artLearning-swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="ageProblem__item">
+                        <div class="ageProblem__item-img">
+                          <img
+                            src="https://static.wixstatic.com/media/de4a55_dfa294a1c54e4bf98bc49db22efe6a85~mv2.jpg/v1/fill/w_600,h_556,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/de4a55_dfa294a1c54e4bf98bc49db22efe6a85~mv2.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ageProblem__item-description p-4">
+                          <h4 class="uppercase h4 color-text">Con cái</h4>
+                          <p class="text color-text">
+                            Cảm giác ức chế dồn nén vì con thường hay cãi lại,
+                            ngang bướng
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="ageProblem__item">
+                        <div class="ageProblem__item-img">
+                          <img
+                            src="https://static.wixstatic.com/media/de4a55_dfa294a1c54e4bf98bc49db22efe6a85~mv2.jpg/v1/fill/w_600,h_556,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/de4a55_dfa294a1c54e4bf98bc49db22efe6a85~mv2.jpg"
+                            alt=""
+                          />
+                        </div>
+                        <div class="ageProblem__item-description p-4">
+                          <h4 class="uppercase h4 color-text">Con cái</h4>
+                          <p class="text color-text">
+                            Mất kết nối" với con. Cảm giác bất lực vì nói rất
+                            nhiều mà con dường như chẳng để tâm
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination"></div>
+
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+            </div> -->
+
+        <div class="lg:max-w-[1000px] mx-auto mt-6">
+          <table>
+            <thead>
+              <tr>
+                <th>CHỦ ĐỀ</th>
+                <th>NỘI DUNG</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Đơn vị</th>
+                <td>MĂNG ĐEN BOOTCAMP</td>
+              </tr>
+              <tr>
+                <th>Thời gian</th>
+                <td>Tháng 6,7,8 (2 tuần – 4 tuần)</td>
+              </tr>
+              <tr>
+                <th>Địa điểm</th>
+                <td>Khu biệt thự ven hồ Đăk Ke - Măng Đen</td>
+              </tr>
+              <tr>
+                <th>Chương trình</th>
+                <td>Ngoại ngữ - Nghệ Thuật và Khám phá trải nghiệm</td>
+              </tr>
+              <tr>
+                <th rowspan="2">Các hoạt động trong khóa học</th>
+                <td>
+                  <ul>
+                    <li>Học ngoại ngữ</li>
+                    <li>Học nghệ thuật gồm: Âm nhạc, hội họa, điêu khắc</li>
+                    <li>Học văn hóa lịch sử Việt Nam....</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <ul>
+                    <li>
+                      Hoạt động ngoài trời: Cưỡi ngựa, camping, chạy bộ, cầu
+                      lông, võ thuật, bóng rổ, bóng đá...
+                    </li>
+                    <li>Tham quan các địa điểm nổi tiếng tại Măng Đen.</li>
+                    <li>Giao lưu văn hóa cộng đồng.</li>
+                    <li>
+                      Chương trình từ thiện - trao yêu thương, trồng cây gây
+                      rừng....
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>Lớp học</th>
+                <td>Tiêu chuẩn 10-12 học viên/lớp</td>
+              </tr>
+              <tr>
+                <th>An ninh</th>
+                <td>
+                  <ul>
+                    <li>
+                      Hệ thống camera giám sát an ninh khuôn viên trường và
+                      bảo vệ khu biệt thự túc trực 24/24.
+                    </li>
+                    <li>Cứ một nhóm học viên sẽ có 1 quản sinh.</li>
+                    <li>
+                      Ngoài ra còn có quản lý túc trực hỗ trợ trong suốt quá
+                      trình học tập.
+                    </li>
+                    <li>
+                      Trường có đội ngũ đầu bếp chuyên nghiệp với thực đơn
+                      phong phú, đảm bảo dinh dưỡng cho học viên.
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+    <section id="muc_tieu" class="container mx-auto py-10 px-5">
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-10">Mục tiêu khóa học</h1>
+
+        <div class="space-y-10">
+          <!-- Tiếng Anh -->
+          <div class="flex flex-col md:flex-row items-center md:items-center">
+            <div class="md:w-1/2 mb-5 md:mb-0 px-3">
+              <h2 class="text-xl font-semibold">1. Tiếng Anh</h2>
+              <p class="text-gray-700 mt-2">Khóa học tập trung vào tính ứng dụng thực tiễn trong giao tiếp, giúp học
+                viên sử dụng tiếng Anh một cách tự nhiên và hiệu quả trong cuộc sống hàng ngày.
+                * Đối với học viên có trình độ cơ bản: Chương trình tập trung vào các mẫu câu giao tiếp thông dụng, giúp
+                học viên tự tin sử dụng tiếng Anh trong các tình huống thực tế. Học viên sẽ được thực hành giao tiếp
+                thường xuyên với giáo viên và bạn bè trong môi trường 100% tiếng Anh tại campus.
+                * Đối với học viên có trình độ tốt: Chương trình nâng cao kỹ năng tranh biện, thuyết trình và diễn đạt ý
+                tưởng một cách mạch lạc, giúp học viên phát triển tư duy phản biện và khả năng sử dụng tiếng Anh linh
+                hoạt.
+                Khóa học được thiết kế để học viên "học để dùng", rèn luyện khả năng giao tiếp tự nhiên và tự tin trong
+                mọi tình huống.</p>
+            </div>
+            <div class="md:w-1/2 w-full">
+              <div class="overflow-hidden ">
+                <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+              </div>
+            </div>
+          </div>
+
+          <!-- Thể thao -->
+          <div class="flex flex-col md:flex-row-reverse items-center md:items-center">
+            <div class="md:w-1/2 mb-5 md:mb-0 px-3">
+              <h2 class="text-xl font-semibold">2. Thể thao</h2>
+              <p class="text-gray-700 mt-2">Học viên được huấn luyện bài bản bởi các chuyên gia trong các môn cưỡi ngựa,
+                Pickleball, chạy trail, giúp nâng cao thể lực, sức bền và tinh thần. Thông qua quá trình rèn luyện, các
+                em không chỉ cải thiện sức khỏe mà còn phát triển ý chí, kỷ luật và tinh thần đồng đội.
+                Kết thúc khóa học, học viên sẽ nắm vững kỹ thuật cơ bản của từng môn, nâng cao khả năng vận động và có
+                một lối sống năng động, lành mạnh.</p>
+            </div>
+            <div class="md:w-1/2 w-full">
+              <div class="overflow-hidden ">
+                <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+              </div>
+            </div>
+          </div>
+
+          <!-- Nghệ thuật -->
+          <div class="flex flex-col md:flex-row items-center md:items-center">
+            <div class="md:w-1/2 mb-5 md:mb-0 px-3">
+              <h2 class="text-xl font-semibold">3. Nghệ thuật </h2>
+              <p class="text-gray-700 mt-2">Thông qua các hoạt động nghệ thuật đa dạng như nhảy, vẽ, nặn, gốm, điêu khắc
+                gỗ ,ảo thuật.. trẻ không chỉ được trải nghiệm niềm vui sáng tạo mà còn có cơ hội nuôi dưỡng tâm hồn và
+                phát triển trí tưởng tượng phong phú. Mỗi hoạt động đều được thiết kế để kích thích sự sáng tạo, giúp
+                trẻ khám phá và thể hiện cá tính riêng, qua đó tăng cường sự tự tin khi giao tiếp và thể hiện bản thân
+                trong cuộc sống.</p>
+            </div>
+            <div class="md:w-1/2 w-full">
+              <div class="overflow-hidden ">
+                <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+              </div>
+            </div>
+          </div>
+
+          <!-- Kỹ năng sống -->
+          <div class="flex flex-col md:flex-row-reverse items-center md:items-center">
+            <div class="md:w-1/2 mb-5 md:mb-0 px-3">
+              <h2 class="text-xl font-semibold">4. Kỹ năng sống</h2>
+              <p class="text-gray-700 mt-2">Thông qua các hoạt động học kỹ năng sống như cắm trại, sinh tồn, nấu ăn, pha
+                chế, bán hàng và quản lý tài chính… các em được trang bị những công cụ cần thiết để tự lập và xử lý tình
+                huống, đồng thời rèn luyện tính kiên trì và khả năng giao tiếp.
+                Trại hè còn tổ chức các hoạt động ngoại khoá như giải chạy trail, pickleball, teambuilding, thăm làng,
+                lội suối, săn mây và thăm farm, giúp trẻ phát triển thể chất, tinh thần đồng đội và mở rộng tầm nhìn, từ
+                đó nâng cao sự linh hoạt, sáng tạo và khả năng thích ứng với xã hội.</p>
+            </div>
+            <div class="md:w-1/2 w-full">
+              <div class="overflow-hidden ">
+                <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="toChatChuongTrinhChoCon" class="py-8 px-6">
+      <div class="section__container lg:max-w-[1000px] mx-auto mt-6">
+        <h1 class="text-3xl font-bold text-center mb-10">Các hoạt động ở Măng Đen Bootcamp</h1>
+        <!-- Slider main container -->
+        <div class="md:flex md:flex-row flex-wrap">
+          <div class="mt-4 md:mt-0 max-w-full md:basis-1/2 md:max-w-[50%] block mb-6 px-2">
+            <div class="swiper swiper--01 ageProblem__languageLearning-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/hoc_tieng_anh_01.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4 sm:pb-8">
+                      <h4 class="uppercase h4">Học tiếng anh</h4>
+                      <p class="text">Team work</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/hoc_tieng_anh_02.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4">Học tiếng anh</h4>
+                      <p class="text">Tự học</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/hoc_tieng_anh_03.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4">Học tiếng anh</h4>
+                      <p class="text">Hùng biện</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/hoc_tieng_anh_04.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4">Học tiếng anh</h4>
+                      <p class="text">Tranh luận</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+
+          <div class="mt-4 md:mt-0 max-w-full md:basis-1/2 md:max-w-[50%] block mb-6 px-2">
+            <div class="swiper ageProblem__artLearning-swiper swiper--02">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/hoc_nghe_thuat_01.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">Học nghệ thuật</h4>
+                      <p class="text color-text">Hội hoạ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/hoc_nghe_thuat_02.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">Học nghệ thuật</h4>
+                      <p class="text color-text">Nhạc cụ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/hoc_nghe_thuat_03.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">Học nghệ thuật</h4>
+                      <p class="text color-text">Điêu khắc</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/hoc_nghe_thuat_04.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">Học nghệ thuật</h4>
+                      <p class="text color-text">Thanh nhạc</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+
+          <div class="mt-4 md:mt-0 max-w-full md:basis-1/2 md:max-w-[50%] block mb-6 px-2">
+            <div class="swiper ageProblem__outsideActivities-swiper swiper--02">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/activities_01.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">
+                        Hoạt động ngoại khoá
+                      </h4>
+                      <p class="text color-text">Cưỡi ngựa</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/activities_02.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">
+                        Hoạt động ngoại khoá
+                      </h4>
+                      <p class="text color-text">Cắm trại</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/activities_03.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">
+                        Hoạt động ngoại khoá
+                      </h4>
+                      <p class="text color-text">Leo núi</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/activities_04.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">
+                        Hoạt động ngoại khoá
+                      </h4>
+                      <p class="text color-text">Đá bóng</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/activities_05 .png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">
+                        Hoạt động ngoại khoá
+                      </h4>
+                      <p class="text color-text">Trải nghiệm văn hoá</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/activities_06.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">
+                        Hoạt động ngoại khoá
+                      </h4>
+                      <p class="text color-text">Tìm hiểu lịch sử</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/activities_07.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">
+                        Hoạt động ngoại khoá
+                      </h4>
+                      <p class="text color-text">Thiện nguyện</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/activities_08.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4">
+                      <h4 class="uppercase h4 color-text">
+                        Hoạt động ngoại khoá
+                      </h4>
+                      <p class="text color-text">Trồng cây</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+
+          <div class="mt-4 md:mt-0 max-w-full md:basis-1/2 md:max-w-[50%] block mb-6 px-2">
+            <div class="swiper swiper--01 ageProblem__infrastructure-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/infrastructure_01.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4 sm:pb-8">
+                      <h4 class="uppercase h4">Cơ sở vật chất</h4>
+                      <p class="text">Phòng học</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/infrastructure_02.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4 sm:pb-8">
+                      <h4 class="uppercase h4">Cơ sở vật chất</h4>
+                      <p class="text">Phòng ăn</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/infrastructure_03.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4 sm:pb-8">
+                      <h4 class="uppercase h4">Cơ sở vật chất</h4>
+                      <p class="text">Ký túc xá</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="ageProblem__item">
+                    <div class="ageProblem__item-img">
+                      <img src="/images/infrastructure_04.png" alt="" />
+                    </div>
+                    <div class="ageProblem__item-description p-4 sm:pb-8">
+                      <h4 class="uppercase h4">Cơ sở vật chất</h4>
+                      <p class="text">Không gian ngoài trời</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+        <h2 class="h2 uppercase color-text text-center color-primary mb-2">
+          MỤC TIÊU KHÓA HỌC
+        </h2>
+        <p class="text text-center">
+          Chương trình Summer Camp 2024 là chương trình tăng cường ngoại ngữ,
+          rèn luyện sức khỏe, sự tự lập, rèn luyện tính kỷ luật và các trải
+          nghiệm ngoại khóa đặc sắc. Được thiết kế dành riêng học sinh từ 8-18
+          tuổi.
+        </p>
+
+        <div class="toChatChuongTrinhChoCon__topics mt-6">
+          <div class="toChatChuongTrinhChoCon__topic-item">
+            <div class="toChatChuongTrinhChoCon__divider my-8 lg:my-0"></div>
+            <div class="toChatChuongTrinhChoCon__topic-header mb-6 lg:mb-0">
+              <div class="flex justify-center lg:flex-col">
+                <div class="toChatChuongTrinhChoCon__topic-img">
+                  <img
+                    src="https://static.wixstatic.com/media/f9a462_07d6bb9d3e814623b9d6dc7242a21cbb~mv2.jpg/v1/crop/x_162,y_0,w_952,h_956/fill/w_222,h_222,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/260622-8.jpg"
+                    alt="" />
+                </div>
+                <div class="toChatChuongTrinhChoCon__topic-number mx-4 color-primary">
+                  1
+                </div>
+                <div class="toChatChuongTrinhChoCon__topic-titles flex flex-col">
+                  <h3 class="h4 toChatChuongTrinhChoCon__topic-title">
+                    Học ngôn ngữ
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="toChatChuongTrinhChoCon__topic-content">
+              <ul>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>Cải thiện khả năng phát âm tiếng Anh.</p>
+                </li>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+
+                  <p>Kỹ năng thuyết trình, hùng biện, tranh luận.</p>
+                </li>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>Nâng cao khả năng tự học.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="toChatChuongTrinhChoCon__topic-item">
+            <div class="toChatChuongTrinhChoCon__divider my-8 lg:my-0"></div>
+            <div class="toChatChuongTrinhChoCon__topic-header mb-6 lg:mb-0">
+              <div class="flex justify-center lg:flex-col">
+                <div class="toChatChuongTrinhChoCon__topic-img">
+                  <img
+                    src="https://static.wixstatic.com/media/f9a462_07d6bb9d3e814623b9d6dc7242a21cbb~mv2.jpg/v1/crop/x_162,y_0,w_952,h_956/fill/w_222,h_222,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/260622-8.jpg"
+                    alt="" />
+                </div>
+                <div class="toChatChuongTrinhChoCon__topic-number mx-4 color-primary">
+                  2
+                </div>
+                <div class="toChatChuongTrinhChoCon__topic-titles flex flex-col">
+                  <h3 class="h4 toChatChuongTrinhChoCon__topic-title">
+                    Học nghệ thuật
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="toChatChuongTrinhChoCon__topic-content">
+              <ul>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>
+                    Gieo mầm hạt giống nghệ thuật và chơi nhạc cụ cơ bản:
+                    ghita, piano, ukelele, kèn, học thanh nhạc.
+                  </p>
+                </li>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>
+                    Hội họa: cách lên bố cục và vẽ một bức tranh theo chủ đề.
+                  </p>
+                </li>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>
+                    Tiếp xúc cơ bản về khối điêu khắc: tượng tròn và phù điêu
+                    cơ bản.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="toChatChuongTrinhChoCon__topic-item">
+            <div class="toChatChuongTrinhChoCon__divider my-8 lg:my-0"></div>
+            <div class="toChatChuongTrinhChoCon__topic-header mb-6 lg:mb-0">
+              <div class="flex justify-center lg:flex-col">
+                <div class="toChatChuongTrinhChoCon__topic-img">
+                  <img
+                    src="https://static.wixstatic.com/media/f9a462_07d6bb9d3e814623b9d6dc7242a21cbb~mv2.jpg/v1/crop/x_162,y_0,w_952,h_956/fill/w_222,h_222,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/260622-8.jpg"
+                    alt="" />
+                </div>
+                <div class="toChatChuongTrinhChoCon__topic-number mx-4 color-primary">
+                  3
+                </div>
+                <div class="toChatChuongTrinhChoCon__topic-titles flex flex-col">
+                  <h3 class="h4 toChatChuongTrinhChoCon__topic-title">
+                    Học kỹ năng sống
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="toChatChuongTrinhChoCon__topic-content">
+              <ul>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>Học cách chung sống tập thể, tự lập và kỷ luật.</p>
+                </li>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>Nâng cao kỹ năng teamwork - kỹ năng hướng đạo sinh.</p>
+                </li>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>Thành thạo cưỡi ngựa (môn thể thao quý tộc).</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="toChatChuongTrinhChoCon__topic-item">
+            <div class="toChatChuongTrinhChoCon__divider my-8 lg:my-0"></div>
+            <div class="toChatChuongTrinhChoCon__topic-header mb-6 lg:mb-0">
+              <div class="flex justify-center lg:flex-col">
+                <div class="toChatChuongTrinhChoCon__topic-img">
+                  <img
+                    src="https://static.wixstatic.com/media/f9a462_07d6bb9d3e814623b9d6dc7242a21cbb~mv2.jpg/v1/crop/x_162,y_0,w_952,h_956/fill/w_222,h_222,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/260622-8.jpg"
+                    alt="" />
+                </div>
+                <div class="toChatChuongTrinhChoCon__topic-number mx-4 color-primary">
+                  4
+                </div>
+                <div class="toChatChuongTrinhChoCon__topic-titles flex flex-col">
+                  <h3 class="h4 toChatChuongTrinhChoCon__topic-title">
+                    Công tác cộng đồng
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="toChatChuongTrinhChoCon__topic-content">
+              <ul>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>Giao lưu văn hoá địa phương.</p>
+                </li>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>
+                    Chung tay bảo vệ môi trường, các hoạt động từ thiện, thiện
+                    nguyện với trẻ em vùng cao.
+                  </p>
+                </li>
+                <li class="flex items-center lg:mb-12">
+                  <svg preserveAspectRatio="xMidYMid meet" data-bbox="57.501 54 92.999 79.999"
+                    viewBox="57.501 54 92.999 79.999" height="50" width="100" xmlns="http://www.w3.org/2000/svg"
+                    data-type="color" role="presentation" aria-hidden="true" aria-label="">
+                    <defs>
+                      <style>
+                        svg {
+                          fill: #ffca09;
+                        }
+                      </style>
+                    </defs>
+                    <g>
+                      <path
+                        d="M101.531 61.261C85.748 64.864 74.265 77.636 74.25 93.885c-.008 13.343 9.999 33.991 29.588 34.963 16.235.806 29.522-5.165 38.63-19.316 7.092-11.019 5.785-24.59-2.279-34.212-10.136-12.095-22.305-17.792-38.658-14.059z"
+                        fill="var(--cl-primary)" data-color="1"></path>
+                      <path
+                        d="M149.935 87.726c-3.526-18.812-23.626-32.153-38.169-33.489-15.8-1.451-29.596 3.827-41.567 14.315-17.34 15.192-16.09 39.736-1.297 55.883 1.859 2.029 4.469 3.871 7.07 4.618 6.936 1.993 14.057 3.342 21.104 4.946 17.197-.756 32.141-6.142 43.946-18.35 7.298-7.549 10.965-16.972 8.913-27.923zm-14.408 21.806c-9.108 14.151-22.395 20.123-38.63 19.316-19.59-.973-29.596-21.62-29.588-34.963.015-16.249 11.498-29.021 27.281-32.624 16.353-3.733 28.522 1.964 38.658 14.059 8.064 9.622 9.371 23.192 2.279 34.212z"
+                        fill="#020202" data-color="2"></path>
+                      <path
+                        d="M123.98 89.482c-3.03 2.143-5.977 4.42-9.113 6.396-3.712 2.339-7.628 4.35-11.381 6.627-5.192 3.15-7.112 2.745-10.769-2.341-1.821-2.532-3.848-4.915-5.671-7.445-1.609-2.232-4.274-4.423-1.415-7.449 2.172-2.299 7.595-2.43 10.043-.031 2.21 2.165 3.96 4.799 5.933 7.21.809.988 1.669 1.933 2.665 3.082 6.766-1.536 11.201-8.618 18.6-8.013 1.334-.062 2.498.675 1.108 1.964z"
+                        fill="#020202" data-color="2"></path>
+                    </g>
+                  </svg>
+                  <p>Trồng cây - gây rừng.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <section id="muc_tieu" class="container mx-auto py-10 px-5">
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-10">Mục tiêu khóa học</h1>
+
+        <div class="space-y-10">
+          <!-- Tiếng Anh -->
+          <div class="flex flex-col md:flex-row items-center md:items-center">
+            <div class="md:w-1/2 mb-5 md:mb-0 px-3">
+              <h2 class="text-xl font-semibold">1. Tiếng Anh</h2>
+              <p class="text-gray-700 mt-2">Khóa học tập trung vào tính ứng dụng thực tiễn trong giao tiếp, giúp học
+                viên sử dụng tiếng Anh một cách tự nhiên và hiệu quả trong cuộc sống hàng ngày.
+                * Đối với học viên có trình độ cơ bản: Chương trình tập trung vào các mẫu câu giao tiếp thông dụng, giúp
+                học viên tự tin sử dụng tiếng Anh trong các tình huống thực tế. Học viên sẽ được thực hành giao tiếp
+                thường xuyên với giáo viên và bạn bè trong môi trường 100% tiếng Anh tại campus.
+                * Đối với học viên có trình độ tốt: Chương trình nâng cao kỹ năng tranh biện, thuyết trình và diễn đạt ý
+                tưởng một cách mạch lạc, giúp học viên phát triển tư duy phản biện và khả năng sử dụng tiếng Anh linh
+                hoạt.
+                Khóa học được thiết kế để học viên "học để dùng", rèn luyện khả năng giao tiếp tự nhiên và tự tin trong
+                mọi tình huống.</p>
+            </div>
+            <div class="md:w-1/2 w-full">
+              <div class="overflow-hidden ">
+                <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+              </div>
+            </div>
+          </div>
+
+          <!-- Thể thao -->
+          <div class="flex flex-col md:flex-row-reverse items-center md:items-center">
+            <div class="md:w-1/2 mb-5 md:mb-0 px-3">
+              <h2 class="text-xl font-semibold">2. Thể thao</h2>
+              <p class="text-gray-700 mt-2">Học viên được huấn luyện bài bản bởi các chuyên gia trong các môn cưỡi ngựa,
+                Pickleball, chạy trail, giúp nâng cao thể lực, sức bền và tinh thần. Thông qua quá trình rèn luyện, các
+                em không chỉ cải thiện sức khỏe mà còn phát triển ý chí, kỷ luật và tinh thần đồng đội.
+                Kết thúc khóa học, học viên sẽ nắm vững kỹ thuật cơ bản của từng môn, nâng cao khả năng vận động và có
+                một lối sống năng động, lành mạnh.</p>
+            </div>
+            <div class="md:w-1/2 w-full">
+              <div class="overflow-hidden ">
+                <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+              </div>
+            </div>
+          </div>
+
+          <!-- Nghệ thuật -->
+          <div class="flex flex-col md:flex-row items-center md:items-center">
+            <div class="md:w-1/2 mb-5 md:mb-0 px-3">
+              <h2 class="text-xl font-semibold">3. Nghệ thuật </h2>
+              <p class="text-gray-700 mt-2">Thông qua các hoạt động nghệ thuật đa dạng như nhảy, vẽ, nặn, gốm, điêu khắc
+                gỗ ,ảo thuật.. trẻ không chỉ được trải nghiệm niềm vui sáng tạo mà còn có cơ hội nuôi dưỡng tâm hồn và
+                phát triển trí tưởng tượng phong phú. Mỗi hoạt động đều được thiết kế để kích thích sự sáng tạo, giúp
+                trẻ khám phá và thể hiện cá tính riêng, qua đó tăng cường sự tự tin khi giao tiếp và thể hiện bản thân
+                trong cuộc sống.</p>
+            </div>
+            <div class="md:w-1/2 w-full">
+              <div class="overflow-hidden ">
+                <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+              </div>
+            </div>
+          </div>
+
+          <!-- Kỹ năng sống -->
+          <div class="flex flex-col md:flex-row-reverse items-center md:items-center">
+            <div class="md:w-1/2 mb-5 md:mb-0 px-3">
+              <h2 class="text-xl font-semibold">4. Kỹ năng sống</h2>
+              <p class="text-gray-700 mt-2">Thông qua các hoạt động học kỹ năng sống như cắm trại, sinh tồn, nấu ăn, pha
+                chế, bán hàng và quản lý tài chính… các em được trang bị những công cụ cần thiết để tự lập và xử lý tình
+                huống, đồng thời rèn luyện tính kiên trì và khả năng giao tiếp.
+                Trại hè còn tổ chức các hoạt động ngoại khoá như giải chạy trail, pickleball, teambuilding, thăm làng,
+                lội suối, săn mây và thăm farm, giúp trẻ phát triển thể chất, tinh thần đồng đội và mở rộng tầm nhìn, từ
+                đó nâng cao sự linh hoạt, sáng tạo và khả năng thích ứng với xã hội.</p>
+            </div>
+            <div class="md:w-1/2 w-full">
+              <div class="overflow-hidden ">
+                <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="co_so_vat_chat" class="container mx-auto py-10 px-5">
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Cơ sở vật chất</h2>
+
+        <div class="grid grid-cols-2 gap-6">
+          <!-- Phòng học -->
+          <div>
+            <img src="https://picsum.photos/300/300?random=4" alt="Phòng học"
+              class="w-full h-60 object-cover rounded-lg">
+            <p class="mt-2 text-lg font-medium text-gray-700">Phòng học</p>
+          </div>
+
+          <!-- Phòng ăn -->
+          <div>
+            <img src="https://picsum.photos/300/300?random=5" alt="Phòng ăn"
+              class="w-full h-60 object-cover rounded-lg">
+            <p class="mt-2 text-lg font-medium text-gray-700">Phòng ăn</p>
+          </div>
+
+          <!-- Ký túc xá -->
+          <div>
+            <img src="https://picsum.photos/300/300?random=6" alt="Ký túc xá"
+              class="w-full h-60 object-cover rounded-lg">
+            <p class="mt-2 text-lg font-medium text-gray-700">Ký túc xá</p>
+          </div>
+
+          <!-- Khu vực ngoài trời -->
+          <div>
+            <img src="https://picsum.photos/300/300?random=7" alt="Khu vực ngoài trời"
+              class="w-full h-60 object-cover rounded-lg">
+            <p class="mt-2 text-lg font-medium text-gray-700">Khu vực ngoài trời</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="thoi_gian_bieu" id="muc_tieu" class="container mx-auto py-10 px-5">
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-10 fade-in-up">Thời gian biểu</h1>
+
+        <div class="relative border-l-4 border-gray-300 pl-6 space-y-10">
+          <!-- Tiếng Anh -->
+          <div class="relative fade-in-up" style="animation-delay: 0.2s;">
+            <div class="absolute -left-7 w-5 h-5 bg-blue-500 rounded-full"></div>
+            <h2 class="text-xl font-semibold">1. Tiếng Anh</h2>
+            <p class="text-gray-700 mt-2">Khóa học tập trung vào ứng dụng thực tiễn trong giao tiếp...</p>
+          </div>
+
+          <!-- Thể thao -->
+          <div class="relative fade-in-up" style="animation-delay: 0.4s;">
+            <div class="absolute -left-7 w-5 h-5 bg-green-500 rounded-full"></div>
+            <h2 class="text-xl font-semibold">2. Thể thao</h2>
+            <p class="text-gray-700 mt-2">Khóa học tập trung vào tinh thần thể thao, rèn luyện sức khỏe...</p>
+          </div>
+
+          <!-- Nghệ thuật -->
+          <div class="relative fade-in-up" style="animation-delay: 0.6s;">
+            <div class="absolute -left-7 w-5 h-5 bg-red-500 rounded-full"></div>
+            <h2 class="text-xl font-semibold">3. Nghệ thuật</h2>
+            <p class="text-gray-700 mt-2">Thông qua các hoạt động nghệ thuật đa dạng như nhảy, vẽ...</p>
+          </div>
+
+          <!-- Kỹ năng sống -->
+          <div class="relative fade-in-up" style="animation-delay: 0.8s;">
+            <div class="absolute -left-7 w-5 h-5 bg-yellow-500 rounded-full"></div>
+            <h2 class="text-xl font-semibold">4. Kỹ năng sống</h2>
+            <p class="text-gray-700 mt-2">Thông qua các hoạt động thực tế như cắm trại, sinh tồn...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- khai giảng -->
+    <section id="lich_khai_giang" id="muc_tieu" class="container mx-auto py-10 px-5">
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-10 fade-in-up">Lịch khai giảng</h1>
+        <div class="overflow-hidden ">
+          <img src="https://picsum.photos/300" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+        </div>
+      </div>
+    </section>
+    <!-- khai giảng -->
+    <!-- chuyến bay -->
+    <section id="thoi_gian_bieu" id="muc_tieu" class="container mx-auto py-10 px-5">
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-10 fade-in-up">Thông tin chuyến bay</h1>
+        <div class="overflow-hidden ">
+          <img src="/images/abc.jpg" alt="Măng Đen" class="w-full h-80 rounded-2xl">
+        </div>
+      </div>
+    </section>
+    <!-- chuyến bay -->
+
+    <!-- học phí -->
+    <section id="thoi_gian_bieu" id="muc_tieu" class="container mx-auto py-10 px-5">
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-10 fade-in-up">Học phí</h1>
+        <h2 class="text-2xl font-bold text-gray-800 mb-4 text-center">Bảng Học Phí</h2>
+
+        <div class="overflow-x-auto">
+          <table class="w-full border-collapse border border-gray-400">
+            <thead>
+              <tr class="bg-gray-200">
+                <th class="border border-gray-400 px-4 py-2">Thời lượng</th>
+                <th class="border border-gray-400 px-4 py-2">Học phí</th>
+                <th class="border border-gray-400 px-4 py-2">Ưu đãi (đăng ký trước ngày 15/4)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="text-center">
+                <td class="border border-gray-400 px-4 py-2">2 Tuần</td>
+                <td class="border border-gray-400 px-4 py-2 font-bold">25.000.000 VNĐ</td>
+                <td class="border border-gray-400 px-4 py-2 font-bold">25.000.000 VNĐ</td>
+              </tr>
+              <tr class="text-center">
+                <td class="border border-gray-400 px-4 py-2">4 Tuần</td>
+                <td class="border border-gray-400 px-4 py-2 font-bold">40.000.000 VNĐ</td>
+                <td class="border border-gray-400 px-4 py-2 font-bold text-red-600">30.000.000 VNĐ</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="mt-4 text-gray-700"><strong>Ưu đãi:</strong> Đóng theo nhóm từ 2 bạn trở lên: giảm 5%. (Học viên ở Kon
+          Tum được giảm thêm 5%).</p>
+
+        <h3 class="mt-4 font-bold text-gray-800">* Học phí trên đã bao gồm:</h3>
+        <ul class="list-disc list-inside text-gray-700">
+          <li>Học phí, tài liệu</li>
+          <li>Chi phí ăn, ở (3 bữa chính, 1 bữa phụ/ngày)</li>
+          <li>Chi phí giặt sấy trong suốt khóa học</li>
+          <li>Chi phí dã ngoại, tham quan, study tour và các hoạt động ngoại khóa khác</li>
+          <li>Phí bảo hiểm du lịch trong suốt khóa học</li>
+          <li>Có người đồng hành cùng học viên từ sân bay</li>
+          <li>Hỗ trợ đưa đón từ Nội Bài/Tân Sơn Nhất hoặc bến xe Miền Đông</li>
+        </ul>
+
+        <h3 class="mt-4 font-bold text-gray-800">* Học phí không bao gồm:</h3>
+        <ul class="list-disc list-inside text-gray-700">
+          <li>Chi phí vé máy bay, vé tàu xe khứ hồi</li>
+          <li>Chi phí phát sinh khác ngoài chương trình</li>
+          <li>VAT</li>
+        </ul>
+
+        <h3 class="mt-4 font-bold text-gray-800">* Lưu ý:</h3>
+        <ul class="list-disc list-inside text-gray-700">
+          <li>Nếu không thể tham gia do bất khả kháng, hoàn 100% tiền đặt cọc.</li>
+          <li>Măng Đen Bootcamp không hoàn cọc trong trường hợp khác.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="thoughtsSharing">
+      <div class="section__container lg:flex lg:flex-row">
+        <div class="thoughtsSharing__img max-h-[70vh] overflow-hidden lg:basis-1/2 lg:max-w-[50%]">
+          <div class="thoughtsSharing__effectBar-wrapper">
+            <div class="hidden lg:block thoughtsSharing__effectBar">
+              <svg preserveAspectRatio="none" data-bbox="10.305 4.552 131.804 131.5" xmlns="http://www.w3.org/2000/svg"
+                viewBox="10.305 4.552 131.804 131.5" role="presentation" aria-hidden="true" aria-label="">
+                <g>
+                  <path d="M142.109 136.052H10.305V4.552l131.804 131.5z"></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <img src="/images/bootcampThoughts.png" alt="" class="w-full lg:object-cover lg:h-full" />
+        </div>
+        <div class="thoughtsSharing__content px-6 py-6 lg:py-24 lg:h-auto text lg:basis-1/2 lg:max-w-[50%]">
+          <div class="thoughtsSharing__effectBar-wrapper">
+            <div class="hidden lg:block thoughtsSharing__effectBar">
+              <svg preserveAspectRatio="none" data-bbox="10.305 4.552 131.804 131.5" xmlns="http://www.w3.org/2000/svg"
+                viewBox="10.305 4.552 131.804 131.5" role="presentation" aria-hidden="true" aria-label="">
+                <g>
+                  <path d="M142.109 136.052H10.305V4.552l131.804 131.5z"></path>
+                </g>
+              </svg>
+            </div>
+          </div>
+          <div class="w-full lg:max-w-[446px] mx-auto">
+            <div class="mb-1 lg:text-center">
+              <svg preserveAspectRatio="xMidYMid meet" data-bbox="27.067 49.383 146.033 101.117"
+                viewBox="27.067 49.383 146.033 101.117" height="50" width="50" xmlns="http://www.w3.org/2000/svg"
+                data-type="tint" role="presentation" aria-hidden="true" aria-label="" class="rotate-180">
+                <g>
+                  <path
+                    d="M32.8 148.2v-1.3c11.8-2.3 22.6-8.3 30.8-17.1 7.6-8.6 12-19.5 12.6-30.8-6.9 8.1-14.6 12.2-23.2 12.2-5 .1-9.9-1.2-14.1-3.9-3.9-2.4-7-5.9-8.9-10-2-4.5-3-9.4-2.9-14.3-.4-9 2.9-17.8 9.2-24.3 6-6 14.2-9.4 22.8-9.2 8.5-.3 16.7 3.4 22.2 9.8 5.7 6.6 8.5 16 8.5 28.4 0 5.3-.5 10.5-1.5 15.7-1.2 5.4-3.2 10.6-5.9 15.4-3 5.4-6.8 10.4-11.4 14.7-4.7 4.5-10.1 8.3-16 11.3-5.5 2.9-11.4 4.8-17.6 5.7l-4.6-2.3z"
+                    fill="#FFFFFF"></path>
+                  <path
+                    d="M116.1 148.2v-1.3c11.8-2.3 22.6-8.3 30.8-17.1 7.6-8.6 12-19.5 12.6-30.8-6.9 8.1-14.6 12.2-23.2 12.2-5 .1-9.9-1.2-14.1-3.9-3.9-2.4-7-5.9-8.9-10-2-4.5-3-9.4-2.9-14.4-.4-9 2.9-17.8 9.2-24.3 6-6 14.2-9.4 22.8-9.2 8.5-.3 16.7 3.4 22.2 9.8 5.7 6.6 8.5 16 8.5 28.4 0 5.3-.5 10.5-1.5 15.7-1.2 5.4-3.2 10.6-5.9 15.4-3 5.4-6.8 10.4-11.4 14.7-4.7 4.5-10.1 8.3-16 11.3-5.5 2.9-11.4 4.8-17.6 5.7l-4.6-2.2z"
+                    fill="#FFFFFF"></path>
+                </g>
+              </svg>
+            </div>
+            <div class="text">
+              <p>
+                Măng Đen Bootcamp mang đến cơ hội trải nghiệm môi trường học
+                tập đa văn hóa, sinh hoạt và học tập cùng học viên đến từ
+                nhiều thành phố khác nhau trên cả nước. Giúp học viên tăng
+                cường kỹ năng giao tiếp, tự tin thể hiện cá tính, tài năng.
+                Với đội ngũ giáo viên nhiệt huyết và giàu kinh nghiệm, hệ
+                thống quản lý chuyên nghiệp. Ngoài ra học viên còn có cơ hội
+                trải nghiệm nhiều hoạt động dã ngoại khác nhau trong suốt quá
+                trình tham gia trại hè. Sau khóa học, học viên không chỉ cải
+                thiện về trình độ tiếng Anh mà còn trưởng thành, tự tin, tự
+                lập hơn trong cuộc sống.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="py-8">
+      <div class="flex justify-center lg:max-w-[1000px] lg:mx-auto text-center">
+        <svg preserveAspectRatio="xMidYMid meet" data-bbox="20 47.1 160 105.9" viewBox="20 47.1 160 105.9" height="200"
+          width="200" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true"
+          aria-label="" class="location__svg w-200px lg:w-[300px]">
+          <defs>
+            <style>
+              .location__svg [data-color="1"] {
+                fill: #ffca08;
+              }
+
+              .location__svg [data-color="3"] {
+                fill: #f0a637;
+              }
+            </style>
+          </defs>
+          <g>
+            <path
+              d="M166.2 110.5l-11.5 3.4-4.6 6.9-9.2 1.1-10.4 3.4 7-6 11.2-3.1 3.8-6 6.8-4.5 2.3.2-4.6-16-4.6-1.8-4.2-10.9-.5-.1-9.1 6.5-8.9 2-7.9 9.7c-.1.1-.2.1-.2 0-.1 0-.1-.1 0-.2l5.7-12.9 9.5-7.1-7-24.5c-1.3-1.1-2.6-2.3-3.9-3.5l-4.8 3.2-14.3 36.5-6.4 3.2s-9.6 26.2-9.6 28.6l-7.9 7.9-5.4.4L64.1 139H64v-.1l11-17 4.9-3.2-1.2-8-4.6-2.3-6.9-14.9h-4.6l-4.1-14.7c-1-.8-1.9-1.7-2.8-2.6l-3.5 2.3-10.4 26.4-4.6 2.3s-6.9 18.9-6.9 20.7l-6.9 6.9-3.4 17.1h160c-3.5-17.3-13.5-38.1-13.8-41.4z"
+              fill="#243744" data-color="1"></path>
+            <path d="M119.5 153h-39v-14.1l19.5-22.6 19.5 22.6V153z" fill="#ffffff" data-color="2"></path>
+            <path d="M99.4 141.5v4.6h-4.6v-4.6h4.6z" fill="#ff5d15" data-color="3"></path>
+            <path d="M105.2 141.5v4.6h-4.6v-4.6h4.6z" fill="#ff5d15" data-color="3"></path>
+            <path d="M99.4 147.3v4.6h-4.6v-4.6h4.6z" fill="#ff5d15" data-color="3"></path>
+            <path d="M105.2 147.3v4.6h-4.6v-4.6h4.6z" fill="#ff5d15" data-color="3"></path>
+          </g>
+        </svg>
+      </div>
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+        <div class="flex flex-wrap">
+          <div class="location-item basis-full shrink-0 grow-0 lg:basis-1/3">
+            <div class="location-item__img">
+              <img
+                src="https://static.wixstatic.com/media/9d22aa_c7f547bc7bfb4295b11dc7b866c98c83~mv2.jpg/v1/fill/w_640,h_562,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9d22aa_c7f547bc7bfb4295b11dc7b866c98c83~mv2.jpg"
+                alt="" />
+            </div>
+            <div class="location-item__content py-12 px-4 lg:py-5">
+              <div class="location-item__content__icon flex justify-center">
+                <svg preserveAspectRatio="xMidYMid meet" data-bbox="66.5 49.5 67 100.997" viewBox="66.5 49.5 67 100.997"
+                  height="100" width="100" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                  aria-hidden="true" aria-label="" class="lg:w-[40px]">
+                  <defs>
+                    <style>
+                      .location-item__content svg [data-color="1"] {
+                        fill: #ffffff;
+                      }
+
+                      .location-item__content svg [data-color="2"] {
+                        fill: #ffca08;
+                      }
+                    </style>
+                  </defs>
+                  <g>
+                    <path
+                      d="M133.5 83.041c0-18.495-15.028-33.541-33.5-33.541S66.5 64.546 66.5 83.041a33.49 33.49 0 0 0 2.908 13.65l.008.02.001.002a33.472 33.472 0 0 0 2.092 3.939l25.522 48.062a3.363 3.363 0 0 0 5.938 0l25.807-48.563c.077-.104.161-.201.228-.316a33.567 33.567 0 0 0 4.496-16.794zm-33.498 56.921L77.945 98.427a3.386 3.386 0 0 0-.338-.686c-.074-.113-.137-.231-.209-.345l-1.923-3.621a26.768 26.768 0 0 1-2.249-10.734c0-14.781 12.011-26.806 26.774-26.806s26.773 12.025 26.773 26.806c0 4.031-.913 8.001-2.64 11.603-.085.119-.175.235-.245.368l-23.886 44.95z"
+                      fill="#0E4828" data-color="1"></path>
+                    <path
+                      d="M100 70.204c-7.517 0-13.633 6.123-13.633 13.65s6.116 13.65 13.633 13.65 13.633-6.124 13.633-13.65-6.115-13.65-13.633-13.65z"
+                      fill="#E98866" data-color="2"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="location-item__description text-center mt-6 lg:mt-2 color-white">
+                <h4 class="text-[19px] lg:text-[25px]">Trại hè miền bắc</h4>
+                <p class="text-[15px] my-3">tổ chức tại</p>
+                <p class="text-[15px]">Kim Bôi Retreat Villa</p>
+                <p class="text-[15px]">Kim Bôi Retreat Villa</p>
+              </div>
+            </div>
+          </div>
+          <div class="location-item basis-full shrink-0 grow-0 lg:basis-1/3">
+            <div class="location-item__img">
+              <img
+                src="https://static.wixstatic.com/media/9d22aa_c7f547bc7bfb4295b11dc7b866c98c83~mv2.jpg/v1/fill/w_640,h_562,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9d22aa_c7f547bc7bfb4295b11dc7b866c98c83~mv2.jpg"
+                alt="" />
+            </div>
+            <div class="location-item__content py-12 px-4 lg:py-5">
+              <div class="location-item__content__icon flex justify-center">
+                <svg preserveAspectRatio="xMidYMid meet" data-bbox="66.5 49.5 67 100.997" viewBox="66.5 49.5 67 100.997"
+                  height="100" width="100" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                  aria-hidden="true" aria-label="" class="lg:w-[40px]">
+                  <defs>
+                    <style>
+                      .location-item__content svg [data-color="1"] {
+                        fill: #ffffff;
+                      }
+
+                      .location-item__content svg [data-color="2"] {
+                        fill: #ffca08;
+                      }
+                    </style>
+                  </defs>
+                  <g>
+                    <path
+                      d="M133.5 83.041c0-18.495-15.028-33.541-33.5-33.541S66.5 64.546 66.5 83.041a33.49 33.49 0 0 0 2.908 13.65l.008.02.001.002a33.472 33.472 0 0 0 2.092 3.939l25.522 48.062a3.363 3.363 0 0 0 5.938 0l25.807-48.563c.077-.104.161-.201.228-.316a33.567 33.567 0 0 0 4.496-16.794zm-33.498 56.921L77.945 98.427a3.386 3.386 0 0 0-.338-.686c-.074-.113-.137-.231-.209-.345l-1.923-3.621a26.768 26.768 0 0 1-2.249-10.734c0-14.781 12.011-26.806 26.774-26.806s26.773 12.025 26.773 26.806c0 4.031-.913 8.001-2.64 11.603-.085.119-.175.235-.245.368l-23.886 44.95z"
+                      fill="#0E4828" data-color="1"></path>
+                    <path
+                      d="M100 70.204c-7.517 0-13.633 6.123-13.633 13.65s6.116 13.65 13.633 13.65 13.633-6.124 13.633-13.65-6.115-13.65-13.633-13.65z"
+                      fill="#E98866" data-color="2"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="location-item__description text-center mt-6 lg:mt-2 color-white">
+                <h4 class="text-[19px] lg:text-[25px]">Trại hè miền bắc</h4>
+                <p class="text-[15px] my-3">tổ chức tại</p>
+                <p class="text-[15px]">Kim Bôi Retreat Villa</p>
+                <p class="text-[15px]">Kim Bôi Retreat Villa</p>
+              </div>
+            </div>
+          </div>
+          <div class="location-item basis-full shrink-0 grow-0 lg:basis-1/3">
+            <div class="location-item__img">
+              <img
+                src="https://static.wixstatic.com/media/9d22aa_c7f547bc7bfb4295b11dc7b866c98c83~mv2.jpg/v1/fill/w_640,h_562,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/9d22aa_c7f547bc7bfb4295b11dc7b866c98c83~mv2.jpg"
+                alt="" />
+            </div>
+            <div class="location-item__content py-12 px-4 lg:py-5">
+              <div class="location-item__content__icon flex justify-center">
+                <svg preserveAspectRatio="xMidYMid meet" data-bbox="66.5 49.5 67 100.997" viewBox="66.5 49.5 67 100.997"
+                  height="100" width="100" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                  aria-hidden="true" aria-label="" class="lg:w-[40px]">
+                  <defs>
+                    <style>
+                      .location-item__content svg [data-color="1"] {
+                        fill: #ffffff;
+                      }
+
+                      .location-item__content svg [data-color="2"] {
+                        fill: #ffca08;
+                      }
+                    </style>
+                  </defs>
+                  <g>
+                    <path
+                      d="M133.5 83.041c0-18.495-15.028-33.541-33.5-33.541S66.5 64.546 66.5 83.041a33.49 33.49 0 0 0 2.908 13.65l.008.02.001.002a33.472 33.472 0 0 0 2.092 3.939l25.522 48.062a3.363 3.363 0 0 0 5.938 0l25.807-48.563c.077-.104.161-.201.228-.316a33.567 33.567 0 0 0 4.496-16.794zm-33.498 56.921L77.945 98.427a3.386 3.386 0 0 0-.338-.686c-.074-.113-.137-.231-.209-.345l-1.923-3.621a26.768 26.768 0 0 1-2.249-10.734c0-14.781 12.011-26.806 26.774-26.806s26.773 12.025 26.773 26.806c0 4.031-.913 8.001-2.64 11.603-.085.119-.175.235-.245.368l-23.886 44.95z"
+                      fill="#0E4828" data-color="1"></path>
+                    <path
+                      d="M100 70.204c-7.517 0-13.633 6.123-13.633 13.65s6.116 13.65 13.633 13.65 13.633-6.124 13.633-13.65-6.115-13.65-13.633-13.65z"
+                      fill="#E98866" data-color="2"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="location-item__description text-center mt-6 lg:mt-2 color-white">
+                <h4 class="text-[19px] lg:text-[25px]">Trại hè miền bắc</h4>
+                <p class="text-[15px] my-3">tổ chức tại</p>
+                <p class="text-[15px]">Kim Bôi Retreat Villa</p>
+                <p class="text-[15px]">Kim Bôi Retreat Villa</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="memories" class="py-8">
+      <div class="section__container lg:max-w-[1000px] lg:mx-auto px-6">
+        <h2 class="h2 uppercase color-text mb-4">
+          Những khoảnh khắc mùa hè đáng nhớ <br /><span class="color-primary">với Măng Đen Bootcamp 2024</span>
+        </h2>
+        <div class="toChatChuongTrinhChoCon__divider"></div>
+      </div>
+      <div class="memories__gallaries mt-6 py-1 lg:py-10">
+        <div class="lg:max-w-[1000px] lg:mx-auto px-1 lg:px-6">
+          <div class="grid">
+            <div class="grid-sizer"></div>
+            <div class="grid-item">
+              <a href="https://static.wixstatic.com/media/f6e612_92cc2302ecf84a5aac8e093745067482~mv2.jpg/v1/fill/w_654,h_488,q_90/f6e612_92cc2302ecf84a5aac8e093745067482~mv2.webp"
+                data-fancybox="gallery" data-caption="Caption #1">
+                <img
+                  src="https://static.wixstatic.com/media/f6e612_92cc2302ecf84a5aac8e093745067482~mv2.jpg/v1/fill/w_654,h_488,q_90/f6e612_92cc2302ecf84a5aac8e093745067482~mv2.webp"
+                  alt="" />
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="https://static.wixstatic.com/media/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.jpg/v1/fill/w_1016,h_762,q_90/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.webp"
+                data-fancybox="gallery" data-caption="Caption #1">
+                <img
+                  src="https://static.wixstatic.com/media/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.jpg/v1/fill/w_1016,h_762,q_90/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.webp"
+                  alt="" />
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="https://static.wixstatic.com/media/1624c0_86bca3f7a0424dd1aacf4fa7576c6abc~mv2.jpg/v1/fill/w_654,h_650,q_90/1624c0_86bca3f7a0424dd1aacf4fa7576c6abc~mv2.webp"
+                data-fancybox="gallery" data-caption="Caption #1">
+                <img
+                  src="https://static.wixstatic.com/media/1624c0_86bca3f7a0424dd1aacf4fa7576c6abc~mv2.jpg/v1/fill/w_654,h_650,q_90/1624c0_86bca3f7a0424dd1aacf4fa7576c6abc~mv2.webp"
+                  alt="" />
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="https://static.wixstatic.com/media/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.jpg/v1/fill/w_1016,h_762,q_90/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.webp"
+                data-fancybox="gallery" data-caption="Caption #1">
+                <img
+                  src="https://static.wixstatic.com/media/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.jpg/v1/fill/w_1016,h_762,q_90/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.webp"
+                  alt="" />
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="https://fastly.picsum.photos/id/65/400/600.jpg?hmac=VCad0idaWv2_RD_NUL5xOuQaFa41z2xQsJT2IS2DYCs"
+                data-fancybox="gallery" data-caption="Caption #1">
+                <img
+                  src="https://fastly.picsum.photos/id/65/400/600.jpg?hmac=VCad0idaWv2_RD_NUL5xOuQaFa41z2xQsJT2IS2DYCs"
+                  alt="" />
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="https://fastly.picsum.photos/id/656/400/600.jpg?hmac=FBSl1g2pufMQtee8C0q6QR_FTSTAyA0Fl7_SbOyLYBc"
+                data-fancybox="gallery" data-caption="Caption #1">
+                <img
+                  src="https://fastly.picsum.photos/id/656/400/600.jpg?hmac=FBSl1g2pufMQtee8C0q6QR_FTSTAyA0Fl7_SbOyLYBc"
+                  alt="" />
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="https://static.wixstatic.com/media/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.jpg/v1/fill/w_1016,h_762,q_90/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.webp"
+                data-fancybox="gallery" data-caption="Caption #1">
+                <img
+                  src="https://static.wixstatic.com/media/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.jpg/v1/fill/w_1016,h_762,q_90/f9a462_bd27877bfa554804b1d19b7e2b54e463~mv2.webp"
+                  alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="aboutUs__btn mt-6 flex align-center justify-center">
+        <a href="#" class="btn aboutUs__btn-register py-3 px-12" id="aboutUs__btn-register">Đăng ký ngay</a>
+      </div>
+    </section>
+    <!-- 
+      <section id="danhTiengVeChungToi" class="py-8 px-6">
+        <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+          <h2 class="h2">
+            <span class="color-primary">
+              40 tòa báo danh tiếng trong nước và quốc tế
+            </span>
+            viết về trại hè TeenUp và WeGrow Vietnam
+          </h2>
+        </div>
+      </section> -->
+
+    <section id="register" class="mb-8">
+      <div class="section__container lg:max-w-[1300px] lg:mx-auto">
+        <div class="section__title px-6">
+          <div class="flex items-center justify-center">
+            <svg preserveAspectRatio="xMidYMid meet" data-bbox="17.499 44.001 165.002 111.999"
+              viewBox="17.499 44.001 165.002 111.999" height="200" width="200" xmlns="http://www.w3.org/2000/svg"
+              data-type="color" role="presentation" aria-hidden="true" aria-label=""
+              class="w-[120px] lg:w-[200px] h-[120px] lg:h-[200px]">
+              <defs>
+                <style>
+                  #comp-ltaxi00f4 svg [data-color="1"] {
+                    fill: #fcf6cc;
+                  }
+
+                  #comp-ltaxi00f4 svg [data-color="2"] {
+                    fill: #ffca09;
+                  }
+                </style>
+              </defs>
+              <g>
+                <path
+                  d="M70.792 146.267a15.676 15.676 0 0 1-2.932-14.451l5.093-17.147c3.138-10.563-2.844-21.986-13.422-24.934-10.251-2.857-20.936 3.044-23.99 13.325l-5.204 17.519A15.595 15.595 0 0 1 20 131.056l50.792 15.211z"
+                  fill="#D6EADE" data-color="1"></path>
+                <path
+                  d="M65.755 89.755a7.883 7.883 0 0 0 4.281-4.928c1.242-4.183-1.136-8.601-5.302-9.848-4.166-1.247-8.566 1.141-9.808 5.323a7.895 7.895 0 0 0 .619 6.027c.044.081.095.156.141.235-10.011-.609-19.574 5.787-22.542 15.781l-5.204 17.519a13.1 13.1 0 0 1-8.681 8.797 2.508 2.508 0 0 0-1.76 2.411 2.507 2.507 0 0 0 1.785 2.392l50.792 15.21a2.494 2.494 0 0 0 2.798-1.02 2.516 2.516 0 0 0-.158-2.985 13.165 13.165 0 0 1-2.463-12.134l5.093-17.147c1.721-5.794 1.028-12.169-1.903-17.489-1.874-3.409-4.519-6.183-7.688-8.144zm-6.038-8.018a2.892 2.892 0 0 1 2.765-2.069c.272 0 .549.039.823.121a2.902 2.902 0 0 1 1.94 3.603 2.888 2.888 0 0 1-3.588 1.947 2.869 2.869 0 0 1-1.713-1.398 2.888 2.888 0 0 1-.227-2.204zm10.84 32.216L65.464 131.1a18.188 18.188 0 0 0 .2 11.014l-39.107-11.711a18.135 18.135 0 0 0 6.176-9.104l5.204-17.519c2.641-8.889 12.028-14.105 20.926-11.624 4.347 1.212 7.972 4.114 10.208 8.172 2.284 4.148 2.826 9.114 1.486 13.625z"
+                  fill="#57BBB9" data-color="2"></path>
+                <path
+                  d="M57.404 99.228c-5.589-1.554-11.502 1.781-13.182 7.438l-.305 1.028a2.512 2.512 0 0 0 2.396 3.229 2.503 2.503 0 0 0 2.395-1.794l.305-1.028c.908-3.054 4.073-4.863 7.055-4.035a2.499 2.499 0 0 0 3.077-1.748 2.511 2.511 0 0 0-1.741-3.09z"
+                  fill="#57BBB9" data-color="2"></path>
+                <path
+                  d="M43.391 145.413c-2.849-.853-5.848.774-6.698 3.635-.85 2.861.771 5.872 3.621 6.725 2.849.853 5.848-.774 6.698-3.635.849-2.861-.772-5.872-3.621-6.725z"
+                  fill="#57BBB9" data-color="2"></path>
+                <path
+                  d="M162.15 101.231a18.593 18.593 0 0 1-14.652-9.692l-11.52-21.305c-3.78-6.99-10.341-12.26-18.002-14.459-4.742-1.362-9.602-1.507-14.222-.48a9.805 9.805 0 0 0-1.063-6.153c-2.576-4.765-8.534-6.538-13.281-3.951-4.746 2.588-6.511 8.57-3.934 13.335a9.726 9.726 0 0 0 4.54 4.243c-9.066 8.885-11.599 23.171-5.304 34.813l11.77 21.768a18.739 18.739 0 0 1 .114 17.617 2.517 2.517 0 0 0 .458 2.954 2.493 2.493 0 0 0 2.948.419l63.111-34.402a2.514 2.514 0 0 0-.963-4.707zM91.794 49.602a4.75 4.75 0 0 1 2.279-.582c1.703 0 3.354.911 4.222 2.516 1.261 2.333.397 5.261-1.926 6.528a4.75 4.75 0 0 1-3.649.385 4.767 4.767 0 0 1-2.852-2.319c-1.261-2.333-.397-5.262 1.926-6.528zm11.5 83.228a23.753 23.753 0 0 0-2.42-15.877l-11.77-21.768c-6.201-11.468-2.056-26.039 9.241-32.481a23.215 23.215 0 0 1 11.54-3.06c2.232 0 4.489.317 6.716.956 6.378 1.831 11.839 6.215 14.982 12.028l11.52 21.305a23.599 23.599 0 0 0 11.943 10.686l-51.752 28.211z"
+                  fill="#57BBB9" data-color="2"></path>
+                <path
+                  d="M105.786 101.859a2.494 2.494 0 0 0-3.39-1.008 2.516 2.516 0 0 0-1.004 3.404l1.506 2.786a2.497 2.497 0 0 0 3.39 1.009 2.516 2.516 0 0 0 1.004-3.404l-1.506-2.787z"
+                  fill="#57BBB9" data-color="2"></path>
+                <path
+                  d="M101.248 93.466l-.962-1.779c-3.43-6.344-1.138-14.405 5.112-17.969a2.515 2.515 0 0 0 .939-3.422 2.495 2.495 0 0 0-3.409-.943c-8.601 4.905-11.758 15.998-7.037 24.729l.962 1.779a2.497 2.497 0 0 0 3.39 1.009 2.516 2.516 0 0 0 1.005-3.404z"
+                  fill="#57BBB9" data-color="2"></path>
+                <path
+                  d="M140.136 126.434a8.362 8.362 0 0 0-6.431.678c-4.093 2.232-5.616 7.391-3.394 11.502a8.452 8.452 0 0 0 7.439 4.434c1.36 0 2.74-.33 4.017-1.026 4.094-2.232 5.616-7.392 3.393-11.502a8.388 8.388 0 0 0-5.024-4.086zm-.754 11.176a3.445 3.445 0 0 1-4.676-1.391 3.474 3.474 0 0 1 1.385-4.695 3.423 3.423 0 0 1 2.625-.277 3.431 3.431 0 0 1 2.051 1.668 3.474 3.474 0 0 1-1.385 4.695z"
+                  fill="#57BBB9" data-color="2"></path>
+                <path
+                  d="M177.56 80.909a2.49 2.49 0 0 0-3.529-.211l-9.52 8.481a2.517 2.517 0 0 0-.211 3.543 2.49 2.49 0 0 0 3.529.211l9.52-8.481a2.516 2.516 0 0 0 .211-3.543z"
+                  fill="#57BBB9" data-color="2"></path>
+                <path
+                  d="M182.486 97.507a2.501 2.501 0 0 0-2.752-2.228l-5.739.617a2.507 2.507 0 0 0-2.219 2.763 2.504 2.504 0 0 0 2.753 2.228l5.739-.617a2.508 2.508 0 0 0 2.218-2.763z"
+                  fill="#57BBB9" data-color="2"></path>
+                <path
+                  d="M157.567 85.829a2.505 2.505 0 0 0 2.805-2.161l.807-6.157a2.51 2.51 0 0 0-2.152-2.817 2.5 2.5 0 0 0-2.805 2.161l-.807 6.157a2.509 2.509 0 0 0 2.152 2.817z"
+                  fill="#57BBB9" data-color="2"></path>
+                <path fill="#57BBB9"
+                  d="M31.382 80.262a2.356 2.356 0 0 1-2.351 2.36 2.356 2.356 0 0 1-2.351-2.36 2.356 2.356 0 0 1 2.351-2.36 2.356 2.356 0 0 1 2.351 2.36z"
+                  data-color="2"></path>
+              </g>
+            </svg>
+
+            <h2 class="h2 ms-2 lg:ms-8 text-center">
+              <span class="block">
+                GIỚI HẠN <br class="lg:hidden" />
+                SỐ LƯỢNG
+              </span>
+              <span class="block color-primary hidden lg:inline">
+                Duy nhất 30 học viên/khóa
+              </span>
+            </h2>
+          </div>
+          <h2 class="h2 block lg:hidden text-center color-primary">
+            Duy nhất 30 học viên/khóa
+          </h2>
+        </div>
+        <div class="register-form mt-4">
+          <div class="flex flex-wrap">
+            <div class="basis-full lg:basis-1/2 px-8">
+              <div class="register-form__img">
+                <img src="/images/form_bg.avif" alt="" class="w-full" />
+              </div>
+            </div>
+            <div class="basis-full lg:basis-1/2 px-8 mt-4 lg:mt-0">
+              <h3 class="text-[21px] lg:text-[25px]">
+                <span>
+                  <span class="wixui-rich-text__text"></span>
+                  HƠN
+                  <span class="color-primary"> 30.000 </span>
+                  HỌC VIÊN TRÊN CẢ NƯỚC ĐÃ ĐỒNG HÀNH CÙNG</span><br />
+                <span class="color-primary"> WEGROW VIETNAM </span>
+              </h3>
+              <form class="mt-4">
+                <div class="form-group">
+                  <label for="">Họ tên phụ huynh *</label>
+                  <input type="text" />
+                </div>
+                <div class="form-group mt-7">
+                  <label for="">Độ tuổi và vấn đề của con</label>
+                  <input type="text" />
+                </div>
+                <div class="form-group mt-7">
+                  <label for="">Số điện thoại</label>
+                  <input type="text" />
+                </div>
+                <div class="form-group mt-7">
+                  <label for="">Email</label>
+                  <input type="text" />
+                </div>
+                <div class="form-group mt-7">
+                  <label for="">Bạn biết đến WeGrow qua kênh nào?</label>
+                  <select name="" id="">
+                    <option value="">Bạn bè</option>
+                    <option value="">Báo chí</option>
+                    <option value="">Facebook</option>
+                  </select>
+                </div>
+                <div class="form-group mt-7 text-center">
+                  <button class="btn aboutUs__btn-register py-3 px-12" id="aboutUs__btn-submit">
+                    Đăng ký
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="partner" class="py-8">
+        <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+          <h2 class="h2 text-center">
+            <span class="color-primary"> Đối tác của WeGrow Vietnam </span>
+          </h2>
+        </div>
+      </section> -->
+  </main>
+  <footer id="footer" class="py-8 bg-[rgba(0,0,0,.05)]">
+    <div class="section__container lg:max-w-[1000px] lg:mx-auto">
+      <div class="flex flex-wrap">
+        <div class="basis-full md:basis-1/3 grow-0 shrink-0 px-6 mb-8">
+          <h2 class="mb-2">Trụ sở chính</h2>
+          <p>Măng Đen Bootcamp</p>
+          <p>
+            Khu Biệt thự Trần Quang Khải, thị trấn Măng Đen, tỉnh Kon Tum,
+            Việt Nam
+          </p>
+        </div>
+        <div class="basis-full md:basis-1/3 grow-0 shrink-0 px-6 mb-8">
+          <h2 class="mb-2">Liên hệ</h2>
+          <p>Hotline: 098 123 4567</p>
+          <p>
+            Email:
+            <a href="mailto:mangdenboootcamp@gmail.com">mangdenboootcamp@gmail.com</a>
+          </p>
+        </div>
+        <div class="basis-full md:basis-1/3 grow-0 shrink-0 px-6 mb-8">
+          <h2 class="mb-2">Thông tin chuyển khoản</h2>
+          <p>Chủ tài khoản: NGUYỄN NGỌC KHÁNH</p>
+          <p>Số tài khoản: 9961 4488 8888</p>
+          <p>Ngân hàng: Techcombank</p>
+          <p>Cú pháp: Tên học sinh_SĐT_Khóa</p>
+          <p>Ví dụ: Nguyen Van A_0905438.xxx_D1K2T</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
