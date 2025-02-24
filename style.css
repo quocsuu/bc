@@ -7,13 +7,13 @@
   --cl-white: rgba(255, 255, 255, 1);
   --cl-black: rgba(0, 0, 0, 1);
   /* font-family: "Montserrat", serif; */
-  font-family: "Oswald", serif;
+  font-family: "Quicksand", serif;
   font-optical-sizing: auto;
   font-style: normal;
   line-height: 1.5;
 }
-p{
-  font-family: "Open Sans", serif;
+p,td, li{
+  font-family: "Quicksand", serif;
 
 }
 h1,
@@ -229,7 +229,7 @@ main {
   position: relative;
 }
 .about-us__content h1 {
-  font-size: 22px;
+  font-size: x;
   line-height: 1.3em;
   text-transform: uppercase;
 }
@@ -460,6 +460,7 @@ main {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 @media (min-width: 1025px) {
   .muc-tieu__item:nth-child(2n) .muc-tieu__content {
